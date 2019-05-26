@@ -7,7 +7,6 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	
 	<header class="page-header">
 		<div class="header--container container">
 			<button class="header--burger-btn"><span class="visually-hidden">Открыть меню</span></button>
@@ -39,8 +38,75 @@
 	</header>
 
 	<main class="page-main">
-		
+		<section class="first">
+			<div class="first--container container">
+				<h2 class="first--title p0">Следите за техникой и персоналом в реальном времени с системой мониторинга <span class="first--title-span">TRACE</span></h2>
+				<p class="first--desc p0">Инновационное програмное обеспечение для&nbsp;горно&#8209;добывающей отрасли промышленности</p>
+				<a class="first--link orange-button" href="#">Попробовать демо</a>
+			</div>
+		</section>
+
+		<section class="slider-pr">
+			<div class="slider-pr--container container">
+				<div class="slider-pr--buttons">
+					<button class="slider-pr--button slider-pr--button__active" onclick="curSlide(1)"></button>
+					<button class="slider-pr--button" onclick="curSlide(2)"></button>
+					<button class="slider-pr--button" onclick="curSlide(3)"></button>
+				</div>
+				<div class="slider-pr--wrap">
+					<div class="slider-pr--item">
+						<img class="slider-pr--image" src="img/sl-1.jpg" width="599" height="330" alt="Фото1" onclick="curSlide(1)">
+						<div class="slider-pr--text">
+							<h3 class="slider-pr--text-title">Определение опасной зоны</h3>
+							<p class="slider-pr--text-desc">Виртуальное определение зоны на карте по координатам GPS или вручную.
+							<br>Автоматическое построение радиусов действия опасной зоны для техники и людей.
+							<br>Временной период активности создаваемой зоны. Например - на время проведения БВР.</p>
+							<a class="slider-pr--text-link orange-button" href="#" download>Скачать презентацию</a>
+						</div>
+					</div>
+					<div class="slider-pr--item">
+						<img class="slider-pr--image" src="img/sl-2.jpg" width="599" height="330" alt="Фото2" onclick="curSlide(2)">
+						<div class="slider-pr--text">
+							<h3 class="slider-pr--text-title">Работа со слоями</h3>
+							<p class="slider-pr--text-desc">Включение/выключение отображения слоев и опасных зон на карте.
+							<br>Наложение данных маркшейдеров.
+							<br>Выбор подложки (спутниковая съемка, карта, аэрофотосъемка, сплошной фон).</p>
+							<a class="slider-pr--text-link orange-button" href="#" download>Скачать презентацию</a>
+						</div>
+					</div>
+					<div class="slider-pr--item">
+						<img class="slider-pr--image" src="img/sl-3.jpg" width="599" height="330" alt="Фото3" onclick="curSlide(3)">
+						<div class="slider-pr--text">
+							<h3 class="slider-pr--text-title">Построение треков по историческим данным</h3>
+							<p class="slider-pr--text-desc">Мультитрек. Возможность построить треки сразу нескольким объектам.
+							<br>Направление движения по нумерации точек трека. 
+							<br>Отображение скорости перемещения объекта.</p>
+							<a class="slider-pr--text-link orange-button" href="#" download>Скачать презентацию</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
 		<!-- ---------------------- -->
+
+
+		<section class="possibilities">
+			<div class="possibilities__nobg container">
+				<h2 class="possibilities__heading p0">ВОЗМОЖНОСТИ ПРОДУКТА</h2>
+				<ul class="possibilities__info p0">
+					<li class="possibilities__track">Построение треков</li>
+					<li class="possibilities__anal">Анализ получаемой информации</li>
+					<li class="possibilities__safe">Безопасность техники и сотрудников</li>
+					<li class="possibilities__contr">Контроль за персоналом</li>
+				</ul>
+				<img src="img/truck (360)-mob.png" alt="" class="possibilities__image" width="1544" height="683">
+				<button class="possibilities__button1 button-truck"></button>
+				<button class="possibilities__button2 button-truck"></button>
+				<button class="possibilities__button3 button-truck"></button>
+			</div>
+		</section>
 
 		<section class="scheme">
 			<p class="scheme-head p0">Схема продукта</p>
@@ -49,60 +115,91 @@
 
 
 		<section class="development">
-				<h2 class="development__heading p0">РАЗВИТИЕ ПРОДУКТА</h2>
-				<div class="development__info">
-					<p class="development__head p0">ПРЕДУПРЕЖДЕНИЕ НАЕЗДА/СТОЛКНОВЕНИЯ</p>
-					<p class="development__text p0">Размещенные датчики на технике сигнализируют о приближении к объектам посредством звукового сигнала в кабине водителя транспортного средства</p>
+			<h2 class="development__heading p0">РАЗВИТИЕ ПРОДУКТА</h2>
+			<div class="development__list">
+				<div class="development__item">
+					<div class="development__info">
+						<img src="img/Number.png" alt="" class="development__num" width="68" height="68">
+						<p class="development__head p0">ПРЕДУПРЕЖДЕНИЕ<br>НАЕЗДА/СТОЛКНОВЕНИЯ</p>
+						<p class="development__text p0">Размещенные датчики на технике сигнализируют о приближении к объектам посредством звукового сигнала в кабине водителя транспортного средства</p>
+					</div>
+					<img src="img/truck-man2.png" alt="" class="development-image" width="1225" height="625">
 				</div>
+
+				<div class="development__item">
+					<div class="development__info">
+						<img src="img/Number2.png" alt="" class="development__num" width="68" height="68">
+						<p class="development__head p0">А это новый текст/<br>Правда-правда</p>
+						<p class="development__text p0">Этой ни капельки не похожий на другой текст, уникальный и новый, а также содержательный и веселыйЭтой ни капельки не похожий на другой текст</p>
+					</div>
+					<img src="img/truck-man3.png" alt="" class="development-image" width="1225" height="625">
+				</div>
+
+				<div class="development__item">
+					<div class="development__info">
+						<img src="img/Number.png" alt="" class="development__num" width="68" height="68">
+						<p class="development__head p0">Совершенно другой/<br>Совершенно</p>
+						<p class="development__text p0">Этой совершенно другой текст, который говорит ни о чем, хотя может о чем-то он и говорит, но это не точноЭтой соверешенно другой текст, кот</p>
+					</div>
+					<img src="img/truck-man4.png" alt="" class="development-image" width="1225" height="625">
+				</div>
+
 				<div class="development__buttons">
-					<button class="development__button button-active"></button>
-					<button class="development__button"></button>
-					<button class="development__button"></button>
+					<button class="development__button" onclick="currentSlide(1)"></button>
+					<button class="development__button" onclick="currentSlide(2)"></button>
+					<button class="development__button" onclick="currentSlide(3)"></button>
 				</div>
+			</div>
 		</section>
 
 
 
 
-		<!-- <section class="products">
-
-			<div class="product">
+		<section class="products">
+			<h2 class="products-title p0">Другие продукты</h2>
+			<div class="product" onclick="currentPR(1)">
 				<img src="img/product1.jpg" alt="" class="product-img" width="320" height="400">
+				<p class="product-text-top p0">СИСТЕМА FACE</p>
 				<p class="product-text p0">СИСТЕМА FACE</p>
 				<a class="product__link orange-button" download href="download/sample.pdf" target="_blank">Скачать презентацию</a>
 			</div>
 
-			<div class="product">
+			<div class="product" onclick="currentPR(2)">
 				<img src="img/product2.jpg" alt="" class="product-img" width="320" height="400">
+				<p class="product-text-top p0">СИСТЕМА АФН ПДД</p>
 				<p class="product-text p0">СИСТЕМА АФН ПДД</p>
 				<a class="product__link orange-button" download href="download/sample.pdf" target="_blank">Скачать презентацию</a>
 			</div>
 
-			<div class="product">
+			<div class="product" onclick="currentPR(3)">
 				<img src="img/product3.jpg" alt="" class="product-img" width="320" height="400">
+				<p class="product-text-top p0">СИСТЕМА FACE</p>
 				<p class="product-text p0">УМНЫЕ ПАРКОВКИ</p>
 				<a class="product__link orange-button" download href="download/sample.pdf" target="_blank">Скачать презентацию</a>
 			</div>
 
-			<div class="product">
+			<div class="product" onclick="currentPR(4)">
 				<img src="img/product4.jpg" alt="" class="product-img" width="320" height="400">
+				<p class="product-text-top p0">АКТИВНЫЙ ГРАЖДАНИН</p>
 				<p class="product-text p0">АКТИВНЫЙ ГРАЖДАНИН</p>
 				<a class="product__link orange-button" download href="download/sample.pdf" target="_blank">Скачать презентацию</a>
 			</div>
 
-			<div class="product">
+			<div class="product" onclick="currentPR(5)">
 				<img src="img/product5.jpg" alt="" class="product-img" width="320" height="400">
+				<p class="product-text-top p0">ВЕСОГАБОРИТ</p>
 				<p class="product-text p0">ВЕСОГАБОРИТ</p>
 				<a class="product__link orange-button" download href="download/sample.pdf" target="_blank">Скачать презентацию</a>
 			</div>
 
-			<div class="product">
+			<div class="product" onclick="currentPR(6)">
 				<img src="img/product6.jpg" alt="" class="product-img" width="320" height="400">
+				<p class="product-text-top p0">МЕТЕОПОСТЫ</p>
 				<p class="product-text p0">МЕТЕОПОСТЫ</p>
 				<a class="product__link orange-button" download href="download/sample.pdf" target="_blank">Скачать презентацию</a>
 			</div>
 
-		</section> -->
+		</section>
 
 	</main>
 
@@ -143,16 +240,19 @@
 		<h2 class="popup--title p0">Закажите звонок</h2>
 		<p class="popup--desc p0">Оставьте свои контакты, и мы перзвоним Вам</p>
 		<form class="popup--form" action="send.php" method="post">
-			<input name="name" class="popup--form-input" type="text" placeholder="Имя" reqiured>
-			<input name="tel" class="popup--form-input" type="tel" placeholder="Телефон" reqiured>
-			<input name="email" class="popup--form-input" type="datetime" placeholder="E-mail" required><br>
-			<label><input name="checkbox" class="popup--form-check" type="checkbox" reqiured><span class="popup--form-check-span"></span><span class="popup--form-check-text">Соглашаюсь на <a href="#" class="popup--form-check-link">обработку персональных данных</a></span></label>
+			<input name="popup-name" class="popup--form-input" type="text" placeholder="Имя" reqiured>
+			<input name="popup-tel" class="popup--form-input" type="tel" placeholder="Телефон" reqiured>
+			<input name="popup-time" class="popup--form-input" type="text" placeholder="Удобное время для звонка (МСК)" required><br>
+			<label><input name="popup-checkbox" class="popup--form-check" type="checkbox" reqiured><span class="popup--form-check-span"></span><span class="popup--form-check-text">Соглашаюсь на <a href="#" class="popup--form-check-link">обработку персональных данных</a></span></label>
 			<button class="popup--form-btn" type="submit">Заказать звонок</button>
 		</form>
 	</div>
 	<script src="scripts/modal.js"></script>
+	<script src="scripts/slider-top.js"></script>	
 	<script src="scripts/products.js"></script>	
 	<script src="scripts/popup.js"></script>
+	<script src="scripts/slider.js"></script>
+
 
 </body>
 </html>

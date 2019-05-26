@@ -1,16 +1,25 @@
-/* Основная функция слайдера */
-var product = document.querySelector('.product');
+/* Индекс слайда по умолчанию */
+var prodIndex = 1;
+showSlidesPR(prodIndex);
 
-product.onclick = function () {
-
-    var i;
-    for (i = 0; i < product.length; i++) {
-        product[i].style.display = "none";
-    }
+/* Устанавливает текущий слайд */
+function currentPR(k) {
+    showSlidesPR(prodIndex = k);
 }
-//     for (i = 0; i < dots.length; i++) {
-//         dots[i].className = dots[i].className.replace("active", "");
-//     }
-//     slides[slideIndex - 1].style.display = "block";
-//     dots[slideIndex - 1].className += " active";
-// }
+
+/* Основная функция слайдера */
+function showSlidesPR(k) {
+    var l;
+    var product = document.getElementsByClassName('product');
+    if (k > product.length) {
+      prodIndex = 1;
+    }
+    if (k < 1) {
+        prodIndex = product.length;
+    }
+    for (l = 0; l < product.length; l++) {
+        product[l].className = product[l].className.replace("product-active", "");
+    }
+    console.log(prodIndex);
+    product[prodIndex - 1].className += " product-active";
+}
