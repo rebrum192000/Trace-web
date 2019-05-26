@@ -61,7 +61,7 @@
 							<p class="slider-pr--text-desc">Виртуальное определение зоны на карте по координатам GPS или вручную.
 							<br>Автоматическое построение радиусов действия опасной зоны для техники и людей.
 							<br>Временной период активности создаваемой зоны. Например - на время проведения БВР.</p>
-							<a class="slider-pr--text-link orange-button" href="#" download>Скачать презентацию</a>
+							<a class="slider-pr--text-link orange-button" href="download/sample.pdf" download>Скачать презентацию</a>
 						</div>
 					</div>
 					<div class="slider-pr--item">
@@ -71,7 +71,7 @@
 							<p class="slider-pr--text-desc">Включение/выключение отображения слоев и опасных зон на карте.
 							<br>Наложение данных маркшейдеров.
 							<br>Выбор подложки (спутниковая съемка, карта, аэрофотосъемка, сплошной фон).</p>
-							<a class="slider-pr--text-link orange-button" href="#" download>Скачать презентацию</a>
+							<a class="slider-pr--text-link orange-button" href="download/sample.pdf" download>Скачать презентацию</a>
 						</div>
 					</div>
 					<div class="slider-pr--item">
@@ -81,7 +81,7 @@
 							<p class="slider-pr--text-desc">Мультитрек. Возможность построить треки сразу нескольким объектам.
 							<br>Направление движения по нумерации точек трека. 
 							<br>Отображение скорости перемещения объекта.</p>
-							<a class="slider-pr--text-link orange-button" href="#" download>Скачать презентацию</a>
+							<a class="slider-pr--text-link orange-button" href="download/sample.pdf" download>Скачать презентацию</a>
 						</div>
 					</div>
 				</div>
@@ -92,7 +92,7 @@
 		<!-- ---------------------- -->
 
 
-		<!-- <section class="possibilities">
+		<section class="possibilities">
 			<div class="possibilities__nobg container">
 				<h2 class="possibilities__heading p0">ВОЗМОЖНОСТИ ПРОДУКТА</h2>
 				<ul class="possibilities__info p0">
@@ -101,20 +101,38 @@
 					<li class="possibilities__safe">Безопасность техники и сотрудников</li>
 					<li class="possibilities__contr">Контроль за персоналом</li>
 				</ul>
-				<img src="img/truck (360)-mob.png" alt="" class="possibilities__image" width="1544" height="683">
-				<button class="possibilities__button1 button-truck"></button>
-				<button class="possibilities__button2 button-truck"></button>
-				<button class="possibilities__button3 button-truck"></button>
+				<div class="possibilities__wrap-info">
+					<div class="possibilities__wrap">
+						<img src="img/truck (360)-mob.png" alt="" class="possibilities__image" width="1544" height="683">
+						<img class="possibilities__image-desk" src="img/truck (360).png" alt="" width="1726" height="971">
+						<div class="possibilities__feat">
+							<div class="possibilities__feat-item1">Построение треков</div>
+							<div class="possibilities__feat-item2">Анализ получаемой информации</div>
+							<div class="possibilities__feat-item3">Безопасность техники и сотрудников</div>
+							<div class="possibilities__feat-item4">Контроль за персоналом</div>
+						</div>
+						<button class="possibilities__button1 button-truck"></button>
+						<button class="possibilities__button2 button-truck"></button>
+						<button class="possibilities__button3 button-truck"></button>
+					</div>
+					<div class="possibilities__texts">
+						<div class="possibilities__text1" style="display:none">Just some text hereJust some text hereJust some text hereJust some text hereJust some text here</div>
+						<div class="possibilities__text2" style="display:none">Just some text hereJust some text hereJust some text hereJust some text hereJust some text here</div>
+						<div class="possibilities__text3" style="display:none">Just some text hereJust some text hereJust some text hereJust some text hereJust some text here</div>
+					</div>
+				</div>
 			</div>
-		</section> -->
+		</section>
 
-		<section class="scheme">
+
+
+		<section class="scheme" id="plan">
 			<p class="scheme-head p0">Схема продукта</p>
 			<img src="img/sсheme.png" alt="" class="scheme__image" width="1140" height="524">
 		</section>
 
 
-		<section class="development">
+		<section class="development" id="development">
 			<h2 class="development__heading p0">РАЗВИТИЕ ПРОДУКТА</h2>
 			<div class="development__list">
 				<div class="development__item">
@@ -152,10 +170,7 @@
 			</div>
 		</section>
 
-
-
-
-		<section class="products">
+		<section class="products" id="other">
 			<h2 class="products-title p0">Другие продукты</h2>
 			<div class="product" onclick="currentPR(1)">
 				<img src="img/product1.jpg" alt="" class="product-img" width="320" height="400">
@@ -252,6 +267,7 @@
 	<script src="scripts/products.js"></script>	
 	<script src="scripts/popup.js"></script>
 	<script src="scripts/slider.js"></script>
+	<script src="scripts/buttons.js"></script>
 
 
 </body>
