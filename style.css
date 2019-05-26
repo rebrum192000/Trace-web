@@ -631,16 +631,16 @@ button{
 
 
 
-.possibilities{
+/* .possibilities{
 	background: url('img/pos-bg.png') no-repeat;
-	background-size: contain;
+	background-size: 100% auto;
 }
 .possibilities__heading{
 	padding-bottom: 2%;
 	padding-top: 1%;
 	text-transform: uppercase;
-	font-size: 14px;
-	line-height: 18px;
+	font-size: 20px;
+	line-height: 29px;
 	text-align: center;
 	color: #fff;
 	font-family: 'Istok Web Bold';
@@ -657,9 +657,9 @@ button{
 }
 
 .possibilities__button1{
-/* 	position: absolute;
+ 	position: absolute;
 	top: -193px;
-	left: 130px; */
+	left: 130px;
 }
 .possibilities__image{
 	width: 300px;
@@ -673,7 +673,7 @@ button{
 	color: #fff;
 	margin-left: 20px;
 	margin-bottom: 10px;
-}
+} */
 
 
 
@@ -746,13 +746,14 @@ button{
 .development__info{
 	padding-left: 20px;
 	width: 260px;
-	padding-bottom: 40px;
+	padding-bottom: 65px;
 	position: relative;
+	text-align: center;
 }
 
 .development__num{
 	position: absolute;
-	top: -193px;
+	top: -230px;
 	left: 130px;
 	background-size: contain;
 	width: 40px;
@@ -764,11 +765,11 @@ button{
 	width: 300px;
 	height: auto;
 	right: 11px;
-	top: -144px;
+	top: -165px;
 }
 .development__heading{
 	text-align: center;
-	padding-bottom: 200px;
+	padding-bottom: 250px;
 	color: #0C1F60;
 	text-transform: uppercase;
 	font-size: 20px;
@@ -787,16 +788,6 @@ button{
 	font-size: 14px;
 	line-height: 16px;
 	position: relative;
-}
-.development__text::before{
-	position: absolute;
-	content: "";
-	width: 6px;
-	height: 6px;
-	left: -10px;
-	top: 4px;
-	background-color: #153A89;
-	border-radius: 50%;
 }
 .development__button {
 	position: relative;
@@ -829,7 +820,7 @@ button{
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%, 0);
-	top: 152px;
+	top: 160px;
 }
 
 @media (min-width: 768px) {
