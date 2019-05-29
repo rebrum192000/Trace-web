@@ -1,4 +1,5 @@
-var modalForm = document.querySelector('.modal__form');
+var modalForm1 = document.querySelector('.modal__form--1');
+var modalForm2 = document.querySelector('.modal__form--2');
 var mOpenBtn1 = document.querySelector('.jsButton1');
 var mOpenBtn2 = document.querySelector('.jsButton2');
 var mOpenBtn3 = document.querySelector('.jsButton3');
@@ -9,41 +10,61 @@ var mOpenBtn7 = document.querySelector('.jsButton7');
 var mOpenBtn8 = document.querySelector('.jsButton8');
 var mOpenBtn9 = document.querySelector('.jsButton9');
 var mOpenBtn10 = document.querySelector('.jsButton10');
-var mCloseBtn = document.querySelector('.modal__form--close-btn');
-
+var mCloseBtn1 = document.querySelector('.modal__form--close-btn--1');
+var mCloseBtn2 = document.querySelector('.modal__form--close-btn--2');
+var modalShadow = document.querySelector('.modal__form-shadow');
 
 	mOpenBtn1.onclick = function() {
-		modalForm.setAttribute("style", "display:block");
+		modalForm1.setAttribute("style", "display:block");
+		modalShadow.setAttribute("style", "display:block");
 	};
 	mOpenBtn2.onclick = function() {
-		modalForm.setAttribute("style", "display:block");
+		modalForm2.setAttribute("style", "display:block");
+		modalShadow.setAttribute("style", "display:block");
 	};
 	mOpenBtn3.onclick = function() {
-		modalForm.setAttribute("style", "display:block");
+		modalForm2.setAttribute("style", "display:block");
+		modalShadow.setAttribute("style", "display:block");
 	};
 	mOpenBtn4.onclick = function() {
-		modalForm.setAttribute("style", "display:block");
+		modalForm2.setAttribute("style", "display:block");
+		modalShadow.setAttribute("style", "display:block");
 	};
 	mOpenBtn5.onclick = function() {
-		modalForm.setAttribute("style", "display:block");
+		modalForm2.setAttribute("style", "display:block");
+		modalShadow.setAttribute("style", "display:block");
 	};
 	mOpenBtn6.onclick = function() {
-		modalForm.setAttribute("style", "display:block");
+		modalForm2.setAttribute("style", "display:block");
+		modalShadow.setAttribute("style", "display:block");
 	};
 	mOpenBtn7.onclick = function() {
-		modalForm.setAttribute("style", "display:block");
+		modalForm2.setAttribute("style", "display:block");
+		modalShadow.setAttribute("style", "display:block");
 	};
 	mOpenBtn8.onclick = function() {
-		modalForm.setAttribute("style", "display:block");
+		modalForm2.setAttribute("style", "display:block");
+		modalShadow.setAttribute("style", "display:block");
 	};
 	mOpenBtn9.onclick = function() {
-		modalForm.setAttribute("style", "display:block");
+		modalForm2.setAttribute("style", "display:block");
+		modalShadow.setAttribute("style", "display:block");
 	};
 	mOpenBtn10.onclick = function() {
-		modalForm.setAttribute("style", "display:block");
+		modalForm2.setAttribute("style", "display:block");
+		modalShadow.setAttribute("style", "display:block");
 	};
-
-
-	mCloseBtn.onclick = function() {
-		modalForm.setAttribute("style", "display:none");
+	
+	modalShadow.onclick = function() {
+		modalForm1.setAttribute("style", "display:none");
+		modalForm2.setAttribute("style", "display:none");
+		modalShadow.setAttribute("style", "display:none");
+	};
+	mCloseBtn1.onclick = function() {
+		modalForm1.setAttribute("style", "display:none");
+		modalShadow.setAttribute("style", "display:none");
+	};
+	mCloseBtn2.onclick = function() {
+		modalForm2.setAttribute("style", "display:none");
+		modalShadow.setAttribute("style", "display:none");
 	};

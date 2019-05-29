@@ -116,9 +116,9 @@
 						<button class="possibilities__button3 button-truck"></button>
 					</div>
 					<div class="possibilities__texts">
-						<div class="possibilities__text1" style="display:none">Just some text hereJust some text hereJust some text hereJust some text hereJust some text here</div>
-						<div class="possibilities__text2" style="display:none">Just some text hereJust some text hereJust some text hereJust some text hereJust some text here</div>
-						<div class="possibilities__text3" style="display:none">Just some text hereJust some text hereJust some text hereJust some text hereJust some text here</div>
+						<div class="possibilities__text1" style="display:none">Позиционирование техники</div>
+						<div class="possibilities__text2" style="display:none">Отображение скорости передвижения объектов</div>
+						<div class="possibilities__text3" style="display:none">Позиционирование людей</div>
 					</div>
 				</div>
 			</div>
@@ -229,24 +229,24 @@
 				<a href="#" class="footer__copy-image-link">
 					<img src="img/footer-logo.png" alt="" class="footer__logo" width="105" height="60">
 				</a>
-				<p class="footer__copy p0">2019. ООО УГМК-ТЕЛЕКОМ.<br>TRACE - система мониторинга.<br><a class="footer__copy-link" href="#">Правовая информация.</a><a class="footer__copy-link" href="#"> Политика конфиденциальности.</a></p>
+				<p class="footer__copy p0">2019. ООО УГМК-ТЕЛЕКОМ.<br>TRACE - система мониторинга.<br><a class="footer__copy-link" href="#">Правовая информация.</a><a class="footer__copy-link" href="https://www.ugmk-telecom.ru/files/policy%20of%20the%20processing%20of%20personal%20data.pdf" target="_blank"> Политика конфиденциальности.</a></p>
 			</div>
 			<div class="footer__form">
 				<div class="footer__form-main">
 					<p class="footer__form-main-q p0">Остались вопросы?</p>
 					<p class="footer__form-main-c p0">Оставьте нам свои контакты, и мы свяжемся с Вами</p>
-					<form class="footer__form-main-data"action="send.php" method="post">
+					<form class="footer__form-main-data" action="send.php" method="post">
 						<input name="name" class="footer__form-main-data-n" type="text" placeholder="Имя" reqiured>
 						<input name="tel" class="footer__form-main-data-n" type="tel" placeholder="Телефон" reqiured>
 						<input name="email" class="footer__form-main-data-n" type="email" placeholder="E-mail" required><br>
-						<label><input name="checkbox" class="footer__check" type="checkbox" reqiured><span class="footer__form-main-data-n-text-span"></span><span class="footer__form-main-data-n-text">Соглашаюсь на <a href="#" class="footer__form-main-c-link">обработку персональных данных</a></span></label>
+						<label><input name="checkbox" class="footer__check" type="checkbox" reqiured><span class="footer__form-main-data-n-text-span"></span><span class="footer__form-main-data-n-text">Соглашаюсь на <a href="https://www.ugmk-telecom.ru/files/policy%20of%20the%20processing%20of%20personal%20data.pdf" class="footer__form-main-c-link" target="_blank">обработку персональных данных</a></span></label>
 						<button class="footer__form-main-data-s" type="submit">Оставить Заявку</button>
 					</form>
 				</div>
 				<p class="footer__form-bottom p0">Или вы можете связаться с нашим менеджером по номеру <a class="footer__form-bottom-link" href="tel:+79122356789">+ 7 (912) 235 67 89</a></p>
 			</div>
 			<div class="footer__adress-info">
-				<a href="#" class="footer__link">
+				<a href="https://www.facebook.com/UGMK.Telecom.Digital" class="footer__link" target="_blank">
 					<img src="img/footer-fb2.png" alt="" class="footer__adress-image" width="40" height="40">
 				</a>
 				<p class="footer__adress p0"><a href="tel:+79122356789" class="footer__adress-link"> + 7 (912) 235 67 89</a> <a href="tel:+73432554433" class="footer__adress-link"> + 7 (343) 255 44 33</a><br>г. Верхняя-Пышма, ул.Орджиникидзе, 22</p>
@@ -258,8 +258,8 @@
 	<div class="popup" style="display: none;">
 		<button class="popup--close-btn"><span class="visually-hidden">Закрыть меню</span></button>
 		<h2 class="popup--title p0">Закажите звонок</h2>
-		<p class="popup--desc p0">Оставьте свои контакты, и мы перзвоним Вам</p>
-		<form class="popup--form" action="send.php" method="post">
+		<p class="popup--desc p0">Оставьте свои контакты, и мы перезвоним Вам</p>
+		<form class="popup--form" action="send2.php" method="post">
 			<input name="popup-name" class="popup--form-input" type="text" placeholder="Имя" reqiured>
 			<input name="popup-tel" class="popup--form-input" type="tel" placeholder="Телефон" reqiured>
 			<input name="popup-time" class="popup--form-input" type="text" placeholder="Удобное время для звонка (МСК)" required><br>
@@ -269,18 +269,29 @@
 	</div>
 
 	
-	<div class="modal__form" style="display:none">
-		<button class="modal__form--close-btn"><span class="visually-hidden">Закрыть меню</span></button>
-		<p class="modal__form-q p0">Остались вопросы?</p>
-		<p class="modal__form-c p0">Оставьте нам свои контакты, и мы свяжемся с Вами</p>
-		<form class="modal__form-data"action="send.php" method="post">
+	<div class="modal__form modal__form--1" style="display:none">
+		<button class="modal__form--close-btn modal__form--close-btn--1"><span class="visually-hidden">Закрыть</span></button>
+		<p class="modal__form-q p0">Оставьте заявку на подключение<br> к демо-версии</p>
+		<form class="modal__form-data" action="send.php" method="post">
 			<input name="name" class="modal__form-data-n" type="text" placeholder="Имя" reqiured>
 			<input name="tel" class="modal__form-data-n" type="tel" placeholder="Телефон" reqiured>
 			<input name="email" class="modal__form-data-n" type="email" placeholder="E-mail" required><br>
-			<label><input name="checkbox" class="footer__check" type="checkbox" reqiured><span class="modal__form-data-n-text-span"></span><span class="modal__form-data-n-text">Соглашаюсь на <a href="#" class="modal__form-c-link">обработку персональных данных</a></span></label>
+			<label><input name="checkbox" class="modal__form__check" type="checkbox" reqiured><span class="modal__form-data-n-text-span"></span><span class="modal__form-data-n-text">Соглашаюсь на <a href="#" class="modal__form-c-link">обработку персональных данных</a></span></label>
 			<button class="modal__form-data-s" type="submit">Оставить Заявку</button>
 		</form>
 	</div>
+	<div class="modal__form modal__form--2" style="display:none">
+		<button class="modal__form--close-btn modal__form--close-btn--2"><span class="visually-hidden">Закрыть меню</span></button>
+		<p class="modal__form-q p0">Укажите данные для отправки презентации</p>
+		<form class="modal__form-data" action="send.php" method="post">
+			<input name="name" class="modal__form-data-n" type="text" placeholder="Имя" reqiured>
+			<input name="tel" class="modal__form-data-n" type="tel" placeholder="Телефон" reqiured>
+			<input name="email" class="modal__form-data-n" type="email" placeholder="E-mail" required><br>
+			<label><input name="checkbox" class="modal__form__check" type="checkbox" reqiured><span class="modal__form-data-n-text-span"></span><span class="modal__form-data-n-text">Соглашаюсь на <a href="#" class="modal__form-c-link">обработку персональных данных</a></span></label>
+			<button class="modal__form-data-s" type="submit">Оставить Заявку</button>
+		</form>
+	</div>
+	<div class="modal__form-shadow"></div>
 
 	<script src="scripts/modal.js"></script>
 	<script src="scripts/slider-top.js"></script>	

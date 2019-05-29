@@ -586,6 +586,7 @@ button{
 		        border-radius: 50%;
 		border: 1.5px solid #B4B4B4;
 		margin: 0 10px;
+		cursor: pointer;
 	}
 	.slider-pr--button__active {
 		border: 1.5px solid #001B50;
@@ -834,28 +835,39 @@ button{
 .possibilities__text1{
 	position: absolute;
 	background-color: #ccc;
+	border-radius: 5px;
 	top: 55px;
 	left: 0;
 	width: 200px;
-	height: 80px;
+	padding: 10px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	height: 35px;
 	text-align: center;
 }
 .possibilities__text2{
 	position: absolute;
 	background-color: #ccc;
+	border-radius: 5px;
 	top: 25px;
 	left: 27px;
 	width: 200px;
-	height: 80px;
+	padding: 10px;
+	box-sizing: border-box;
+	height: 35px;
 	text-align: center;
 }
 .possibilities__text3{
 	position: absolute;
 	background-color: #ccc;
+	border-radius: 5px;
 	top: 70px;
 	left: 85px;
 	width: 200px;
-	height: 80px;
+	padding: 10px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	height: 35px;
 	text-align: center;
 }
 .possibilities__image-desk{
@@ -1060,8 +1072,8 @@ button{
 	.possibilities__text1{
 		position: absolute;
 		background-color: #ccc;
-		top: -80px;
-		left: 290px;
+		top: -185px;
+		left: 625px;
 		width: 200px;
 		height: 80px;
 		text-align: center;
@@ -1069,8 +1081,8 @@ button{
 	.possibilities__text2{
 		position: absolute;
 		background-color: #ccc;
-		top: 20px;
-		left: 152px;
+		top: 30px;
+		left: 40px;
 		width: 200px;
 		height: 80px;
 		text-align: center;
@@ -1078,8 +1090,8 @@ button{
 	.possibilities__text3{
 		position: absolute;
 		background-color: #ccc;
-		top: 60px;
-		left: 650px;
+		top: -50px;
+		left: 950px;
 		width: 200px;
 		height: 80px;
 		text-align: center;
@@ -1189,8 +1201,8 @@ button{
 	.possibilities__text1{
 		position: absolute;
 		background-color: #ccc;
-		top: -160px;
-		left: 380px;
+		top: -340px;
+		left: 725px;
 		width: 200px;
 		height: 80px;
 		text-align: center;
@@ -1198,8 +1210,8 @@ button{
 	.possibilities__text2{
 		position: absolute;
 		background-color: #ccc;
-		top: -5px;
-		left: 180px;
+		top: -10px;
+		left: -100px;
 		width: 200px;
 		height: 80px;
 		text-align: center;
@@ -1207,8 +1219,8 @@ button{
 	.possibilities__text3{
 		position: absolute;
 		background-color: #ccc;
-		top: -8px;
-		left: 785px;
+		top: -50px;
+		left: 1150px;
 		width: 200px;
 		height: 80px;
 		text-align: center;
@@ -2232,7 +2244,7 @@ button{
 		        border-radius: 10px;
 		font-size: 14px;
 		line-height: 20px;
-		padding: 10px 42px;
+		padding: 10px 25px;
 	}
 	.footer__form-main-data-n{
 		margin-bottom: 15px;
@@ -2568,7 +2580,7 @@ button{
     vertical-align: middle;
     cursor: pointer;
 }
-.modal__form:checked + .modal__form-data-n-text-span::before {
+.modal__form__check:checked + .modal__form-data-n-text-span::before {
     position: absolute;
     content: "";
     top: 0;
@@ -2609,6 +2621,20 @@ button{
 }
 .modal__form--close-btn:hover {
 	opacity: 0.4;
+}
+.modal__form-shadow {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -70px;
+    padding-bottom: 70px;
+    transform: translateY(70px);
+    z-index: 250;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 @media(min-width: 1360px){
 	.modal__form{
@@ -2676,7 +2702,7 @@ button{
 	    height: 12px;
 	    vertical-align: middle;
 	}
-	.modal__form:checked + .modal__form-data-n-text-span::before {
+	.modal__form__check:checked + .modal__form-data-n-text-span::before {
 	    position: absolute;
 	    content: "";
 	    top: 1px;
