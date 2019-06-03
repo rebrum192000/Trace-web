@@ -791,22 +791,29 @@ button{
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	cursor: pointer;
+	z-index: 5;
 }
-
+@keyframes scale {
+		 0% { transform: scale(1); }
+		 100% { transform: scale(2); }
+	}
 .possibilities__button1{
  	position: absolute;
 	top: 10px;
 	left: 104px;
+	animation: scale 1s infinite;
 }
 .possibilities__button2{
  	position: absolute;
 	top: 40px;
 	left: 64px;
+	animation: scale 1s infinite;
 }
 .possibilities__button3{
  	position: absolute;
 	top: 55px;
 	left: 203px;
+	animation: scale 1s infinite;
 }
 .possibilities__image{
 	position: absolute;
@@ -834,42 +841,81 @@ button{
 }
 .possibilities__text1{
 	position: absolute;
-	background-color: #ccc;
+	background-color: #F5B91E;
 	border-radius: 5px;
-	top: 55px;
+	top: 69px;
 	left: 0;
-	width: 200px;
+	width: 140px;
 	padding: 10px;
 	padding-top: 20px;
 	box-sizing: border-box;
-	height: 35px;
+	height: 60px;
 	text-align: center;
+	font-size: 10px;
+	line-height: 12px;
 }
+.possibilities__text1::before{
+		position: absolute;
+		content: '';
+		bottom: 58px;
+		left: 70px;
+		width: 0;
+		height: 0;
+		border: 10px solid transparent;
+		border-bottom: 25px solid #F5B91E;
+		z-index: 3;
+	}
 .possibilities__text2{
 	position: absolute;
-	background-color: #ccc;
+	background-color: #F5B91E;
 	border-radius: 5px;
-	top: 25px;
-	left: 27px;
-	width: 200px;
+	top: 37px;
+	left: 40px;
+	width: 140px;
 	padding: 10px;
 	box-sizing: border-box;
-	height: 35px;
+	height: 60px;
 	text-align: center;
+	font-size: 10px;
+	line-height: 12px;
 }
+.possibilities__text2::before{
+		position: absolute;
+		content: '';
+		bottom: 58px;
+		left: 70px;
+		width: 0;
+		height: 0;
+		border: 10px solid transparent;
+		border-bottom: 25px solid #F5B91E;
+		z-index: 3;
+	}
 .possibilities__text3{
 	position: absolute;
-	background-color: #ccc;
+	background-color: #F5B91E;
 	border-radius: 5px;
-	top: 70px;
-	left: 85px;
-	width: 200px;
+	top: 84px;
+	left: 139px;
+	width: 140px;
 	padding: 10px;
 	padding-top: 20px;
 	box-sizing: border-box;
-	height: 35px;
+	height: 60px;
 	text-align: center;
+	font-size: 10px;
+	line-height: 12px;
 }
+.possibilities__text3::before{
+		position: absolute;
+		content: '';
+		bottom: 58px;
+		left: 70px;
+		width: 0;
+		height: 0;
+		border: 10px solid transparent;
+		border-bottom: 25px solid #F5B91E;
+		z-index: 3;
+	}
 .possibilities__image-desk{
 	display: none;
 }
@@ -907,6 +953,7 @@ button{
 		-webkit-box-sizing: border-box;
 		        box-sizing: border-box;
 		cursor: pointer;
+		z-index: 5;
 	}
 
 	.possibilities__button1{
@@ -946,30 +993,70 @@ button{
 	}
 	.possibilities__text1{
 		position: absolute;
-		background-color: #ccc;
-		top: -28px;
-		left: 235px;
-		width: 200px;
+		background-color: #F5B91E;
+		top: -141px;
+		left: 249px;
+		width: 170px;
 		height: 80px;
 		text-align: center;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.possibilities__text1::before{
+		position: absolute;
+		content: '';
+		bottom: -34px;
+		left: 70px;
+		width: 0;
+		height: 0;
+		border: 10px solid transparent;
+		border-top: 25px solid #F5B91E;
+		z-index: 3;
+
 	}
 	.possibilities__text2{
 		position: absolute;
-		background-color: #ccc;
-		top: 35px;
-		left: 152px;
-		width: 200px;
-		height: 80px;
+		background-color: #F5B91E;
+		top: -87px;
+		left: 174px;
+		width: 170px;
+		height: 90px;
 		text-align: center;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.possibilities__text2::before{
+		position: absolute;
+		content: '';
+		bottom: -34px;
+		left: 70px;
+		width: 0;
+		height: 0;
+		border: 10px solid transparent;
+		border-top: 25px solid #F5B91E;
+		z-index: 3;
 	}
 	.possibilities__text3{
 		position: absolute;
-		background-color: #ccc;
-		top: 60px;
-		left: 450px;
-		width: 200px;
+		background-color: #F5B91E;
+		top: -51px;
+		left: 473px;
+		width: 170px;
 		height: 80px;
 		text-align: center;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.possibilities__text3::before{
+		position: absolute;
+		content: '';
+		bottom: -34px;
+		left: 70px;
+		width: 0;
+		height: 0;
+		border: 10px solid transparent;
+		border-top: 25px solid #F5B91E;
+		z-index: 3;
 	}
 	.possibilities__image-desk{
 		display: block;
@@ -1042,22 +1129,31 @@ button{
 		-webkit-box-sizing: border-box;
 		        box-sizing: border-box;
 		cursor: pointer;
+		z-index: 5;
 	}
 
 	.possibilities__button1{
 	 	position: absolute;
 		top: 55px;
 		left: 350px;
+		animation: scale 1s infinite;
+	}
+	
+	@keyframes scale {
+		 0% { transform: scale(1); }
+		 100% { transform: scale(2); }
 	}
 	.possibilities__button2{
 	 	position: absolute;
 		top: -50px;
 		left: 490px;
+		animation: scale 1s infinite;
 	}
 	.possibilities__button3{
 	 	position: absolute;
 		top: 95px;
 		left: 855px;
+		animation: scale 1s infinite;
 	}
 	.possibilities__info{
 		display: none;
@@ -1071,30 +1167,63 @@ button{
 	}
 	.possibilities__text1{
 		position: absolute;
-		background-color: #ccc;
-		top: -185px;
-		left: 625px;
+		background-color: #F5B91E;
+		top: -153px;
+    	left: 406px;
 		width: 200px;
 		height: 80px;
 		text-align: center;
+	}
+	.possibilities__text1::before{
+		position: absolute;
+		content: '';
+		bottom: -34px;
+		left: 90px;
+		width: 0;
+		height: 0;
+		border: 10px solid transparent;
+		border-top: 25px solid #F5B91E;
+		z-index: 3;
 	}
 	.possibilities__text2{
 		position: absolute;
-		background-color: #ccc;
-		top: 30px;
-		left: 40px;
+		background-color: #F5B91E;
+		top: -45px;
+		left: 266px;
 		width: 200px;
 		height: 80px;
 		text-align: center;
 	}
+	.possibilities__text2::before{
+		position: absolute;
+		content: '';
+		bottom: -34px;
+		left: 90px;
+		width: 0;
+		height: 0;
+		border: 10px solid transparent;
+		border-top: 25px solid #F5B91E;
+		z-index: 3;
+	}
 	.possibilities__text3{
 		position: absolute;
-		background-color: #ccc;
-		top: -50px;
-		left: 950px;
+		background-color: #F5B91E;
+		top: -4px;
+		left: 772px;
 		width: 200px;
 		height: 80px;
 		text-align: center;
+	}
+	.possibilities__text3::before{
+		position: absolute;
+		content: '';
+		bottom: -34px;
+		left: 90px;
+		width: 0;
+		height: 0;
+		border: 10px solid transparent;
+		border-top: 25px solid #F5B91E;
+		z-index: 3;
 	}
 	.possibilities__image-desk{
 		display: block;
@@ -1200,27 +1329,27 @@ button{
 	}
 	.possibilities__text1{
 		position: absolute;
-		background-color: #ccc;
-		top: -340px;
-		left: 725px;
+		background-color: #F5B91E;
+		top: -280px;
+		left: 386px;
 		width: 200px;
 		height: 80px;
 		text-align: center;
 	}
 	.possibilities__text2{
 		position: absolute;
-		background-color: #ccc;
-		top: -10px;
-		left: -100px;
+		background-color: #F5B91E;
+		top: -130px;
+		left: 186px;
 		width: 200px;
 		height: 80px;
 		text-align: center;
 	}
 	.possibilities__text3{
 		position: absolute;
-		background-color: #ccc;
-		top: -50px;
-		left: 1150px;
+		background-color: #F5B91E;
+		top: -73px;
+		left: 901px;
 		width: 200px;
 		height: 80px;
 		text-align: center;
