@@ -7,6 +7,14 @@ function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
+function plusSlide() {
+    showSlides(slideIndex += 1);
+}
+setInterval(function() { 
+            plusSlide();
+        },3000);
+
+
 /* Основная функция слайдера */
 function showSlides(n) {
     var i;

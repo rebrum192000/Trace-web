@@ -7,6 +7,13 @@ function curSlide(t) {
     showSlides2(slideIn = t);
 }
 
+function plusSlide2() {
+    showSlides2(slideIn += 1);
+}
+setInterval(function() { 
+            plusSlide2();
+        },3000);
+
 /* Основная функция слайдера */
 function showSlides2(t) {
     var j;
