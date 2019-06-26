@@ -20,7 +20,8 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	        -moz-box-sizing: border-box;
+	     box-sizing: border-box;
 	min-width: 320px;
 
 	font-family: "Istok Web Regular", serif;
@@ -55,6 +56,7 @@ button{
 	background: -webkit-gradient(linear, left top, right top, from(#FFAD00), to(rgba(255, 173, 0, 0))), #FF8008; 
 	background: -webkit-linear-gradient(left, #FFAD00 0%, rgba(255, 173, 0, 0) 100%), #FF8008; 
 	background: -o-linear-gradient(left, #FFAD00 0%, rgba(255, 173, 0, 0) 100%), #FF8008; 
+	background: -moz-linear-gradient(left, #FFAD00 0%, rgba(255, 173, 0, 0) 100%), #FF8008; 
 	background: linear-gradient(90deg, #FFAD00 0%, rgba(255, 173, 0, 0) 100%), #FF8008;
 	-webkit-border-radius: 4px;
 	        border-radius: 4px;
@@ -72,6 +74,7 @@ button{
 	letter-spacing: 0.025em;
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
+	-moz-transition: 0.3s;
 	transition: 0.3s;
 }
 .orange-button:hover{
@@ -94,7 +97,8 @@ button{
 		max-width: 280px;
 		margin: 0 auto;
 		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		        -moz-box-sizing: border-box;
+		     box-sizing: border-box;
 	}
 }
 
@@ -126,15 +130,18 @@ button{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
+	display: -moz-box;
 	display: flex;
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
 	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	        -moz-box-pack: justify;
+	     justify-content: space-between;
 	-webkit-box-align: center;
 	-webkit-align-items: center;
 	    -ms-flex-align: center;
-	        align-items: center;
+	        -moz-box-align: center;
+	     align-items: center;
 }
 .header--nav,
 .header--button-span {
@@ -165,6 +172,7 @@ button{
 	        box-shadow: 0px 8px #ffffff, 0px 16px #ffffff;
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
+	-moz-transition: 0.3s;
 	transition: 0.3s;
 }
 .header--button {
@@ -178,6 +186,7 @@ button{
 	cursor: pointer;
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
+	-moz-transition: 0.3s;
 	transition: 0.3s;
 }
 .header--button:hover {
@@ -193,22 +202,28 @@ button{
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
-	        flex-direction: column;
+	        -moz-box-orient: vertical;
+	        -moz-box-direction: normal;
+	     flex-direction: column;
 	-webkit-justify-content: space-around;
 	    -ms-flex-pack: distribute;
 	        justify-content: space-around;
 	-webkit-box-align: center;
 	-webkit-align-items: center;
 	    -ms-flex-align: center;
-	        align-items: center;
+	        -moz-box-align: center;
+	     align-items: center;
 	z-index: 150;
 	top: 10%;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	    -ms-transform: translateX(-50%);
-	        transform: translateX(-50%);
+	        -moz-transform: translateX(-50%);
+	          -o-transform: translateX(-50%);
+	     transform: translateX(-50%);
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	        -moz-box-sizing: border-box;
+	     box-sizing: border-box;
 	padding: 15px;
 	width: 280px;
 	height: 80%;
@@ -231,6 +246,7 @@ button{
 	cursor: pointer;
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
+	-moz-transition: 0.3s;
 	transition: 0.3s;
 }
 .nav--close-btn:hover {
@@ -243,16 +259,20 @@ button{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
+	display: -moz-box;
 	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
-	        flex-direction: column;
+	        -moz-box-orient: vertical;
+	        -moz-box-direction: normal;
+	     flex-direction: column;
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
 	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	        -moz-box-pack: justify;
+	     justify-content: space-between;
 	list-style: none;
 }
 .nav--link {
@@ -263,6 +283,7 @@ button{
 	color: #4B69A0;
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
+	-moz-transition: 0.3s;
 	transition: 0.3s;
 }
 .nav--link:hover,
@@ -276,16 +297,20 @@ button{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
+	display: -moz-box;
 	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
-	        flex-direction: column;
+	        -moz-box-orient: vertical;
+	        -moz-box-direction: normal;
+	     flex-direction: column;
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
 	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	        -moz-box-pack: justify;
+	     justify-content: space-between;
 }
 .nav--tel-link {
 	font: inherit;
@@ -298,6 +323,7 @@ button{
 	border-bottom: 1px solid #FFFFFF;
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
+	-moz-transition: 0.3s;
 	transition: 0.3s;
 }
 .nav--tel-link:hover,
@@ -329,7 +355,8 @@ button{
 		background-image: none;
 		border: 2px solid #FFFFFF;
 		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		        -moz-box-sizing: border-box;
+		     box-sizing: border-box;
 		-webkit-border-radius: 4px;
 		        border-radius: 4px;
 		
@@ -356,7 +383,8 @@ button{
 	}
 	.header--container {
 		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		        -moz-box-sizing: border-box;
+		     box-sizing: border-box;
 		padding: 13px 5px 10px 5px;
 	}
 	.header--burger-btn,
@@ -369,20 +397,26 @@ button{
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
+		display: -moz-box;
 		display: flex;
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
 		-webkit-flex-direction: row;
 		    -ms-flex-direction: row;
-		        flex-direction: row;
+		        -moz-box-orient: horizontal;
+		        -moz-box-direction: normal;
+		     flex-direction: row;
 		-webkit-box-pack: justify;
 		-webkit-justify-content: space-between;
 		    -ms-flex-pack: justify;
-		        justify-content: space-between;
+		        -moz-box-pack: justify;
+		     justify-content: space-between;
 		z-index: 50;
 		-webkit-transform: none;
 		    -ms-transform: none;
-		        transform: none;
+		        -moz-transform: none;
+		          -o-transform: none;
+		     transform: none;
 		padding: 0;
 		width: auto;
 		height: auto;
@@ -397,16 +431,20 @@ button{
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
+		display: -moz-box;
 		display: flex;
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
 		-webkit-flex-direction: row;
 		    -ms-flex-direction: row;
-		        flex-direction: row;
+		        -moz-box-orient: horizontal;
+		        -moz-box-direction: normal;
+		     flex-direction: row;
 		-webkit-box-pack: justify;
 		-webkit-justify-content: space-between;
 		    -ms-flex-pack: justify;
-		        justify-content: space-between;
+		        -moz-box-pack: justify;
+		     justify-content: space-between;
 	}
 	.nav--item {
 		margin: 0 20px;
@@ -419,16 +457,20 @@ button{
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
+		display: -moz-box;
 		display: flex;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		-webkit-flex-direction: column;
 		    -ms-flex-direction: column;
-		        flex-direction: column;
+		        -moz-box-orient: vertical;
+		        -moz-box-direction: normal;
+		     flex-direction: column;
 		-webkit-box-pack: justify;
 		-webkit-justify-content: space-between;
 		    -ms-flex-pack: justify;
-		        justify-content: space-between;
+		        -moz-box-pack: justify;
+		     justify-content: space-between;
 	}
 	.nav--tel-link:first-of-type {
 		margin-bottom: 5px;
@@ -530,9 +572,26 @@ button{
 	padding-bottom: 20px;
 	text-align: center;
 }
-
+.slider-pr--text-title {
+	margin-top: 0;
+	padding-top: 1em;
+}
 .slider-pr--buttons {
-	display: block;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            -moz-box-pack: center;
+         justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            -moz-box-align: center;
+         align-items: center;
 	margin: 0 auto;
 	padding-top: 170px;
 }
@@ -545,7 +604,7 @@ button{
 	-webkit-border-radius: 50%;
 	        border-radius: 50%;
 	border: 1.5px solid #B4B4B4;
-	margin: 0 10px;
+	margin: 0 13px;
 	cursor: pointer;
 }
 .slider-pr--button__active {
@@ -568,6 +627,7 @@ button{
 .slider-pr--item {
 	min-height: 330px;
 }
+
 .slider-pr--item__prev,
 .slider-pr--item__next {
 	display: none!important;
@@ -578,7 +638,8 @@ button{
 	top: -225px;
 	left: 0;
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	        -moz-box-sizing: border-box;
+	     box-sizing: border-box;
 	border: 2px solid #FFFFFF;
 	-webkit-box-shadow:	0px -7px 17px rgba(18, 32, 92, 0.25);
 	        box-shadow: 0px -7px 17px rgba(18, 32, 92, 0.25);
@@ -602,7 +663,6 @@ button{
 	}
 	.slider-pr--buttons {
 		position: relative;
-		display: block;
 		margin: 0 auto;
 		padding-top: 206px;
 	}
@@ -610,7 +670,7 @@ button{
 		z-index: 1;
 		position: absolute;
 		content: "";
-		top: -49px;
+		top: -71px;
 		left: 0;
 		width: 100%;
 		height: 200px;
@@ -627,7 +687,7 @@ button{
 		-webkit-border-radius: 50%;
 		        border-radius: 50%;
 		border: 1.5px solid #B4B4B4;
-		margin: 0 10px;
+		margin: 0 13px;
 		cursor: pointer;
 	}
 	.slider-pr--button__active {
@@ -667,7 +727,9 @@ button{
 		left: 0;
 		-webkit-transform: none;
 		    -ms-transform: none;
-		        transform: none;
+		        -moz-transform: none;
+		          -o-transform: none;
+		     transform: none;
 		width: auto;
 		height: 200px;
 		opacity: 0.5; 
@@ -686,7 +748,9 @@ button{
 		left: 100%;
 		-webkit-transform: translate(-100%, 0);
 		    -ms-transform: translate(-100%, 0);
-		        transform: translate(-100%, 0);
+		        -moz-transform: translate(-100%, 0);
+		          -o-transform: translate(-100%, 0);
+		     transform: translate(-100%, 0);
 		width: auto;
 		height: 200px;
 		opacity: 0.5; 
@@ -718,9 +782,10 @@ button{
 		width: 450px;
 		height: auto;
 		z-index: 5;
-		-webkit-transition: 0.3s;
-		-o-transition: 0.3s;
-		transition: 0.3s;
+		-webkit-transition: 0.7s;
+		-o-transition: 0.7s;
+		-moz-transition: 0.7s;
+		transition: 0.7s;
 	}
 	.slider-pr--text-link {
 		margin-bottom: 61px;
@@ -740,11 +805,11 @@ button{
 	.slider-pr::before{
 		position: absolute;
 		content: "";
-		top: -550px;
-		left: 0;
+		top: -520px;
+		left: -50px;
 		width: 100%;
-		height: 1123px;
-		background-image: url("img/sl-bg.png");
+		height: 1087px;
+		background-image: url("img/map_fon-n.png");
 		background-repeat: no-repeat;
 		-webkit-background-size: cover;
 		        background-size: cover;
@@ -758,7 +823,7 @@ button{
 	.slider-pr--buttons::before {
 		position: absolute;
 		content: "";
-		top: -104px;
+		top: -109px;
 		left: 0;
 		width: 100%;
 		height: 274px;
@@ -774,6 +839,7 @@ button{
 		font-size: 20px;
 		line-height: 29px;
 		margin-top: 33px;
+		padding-top: 0;
 		margin-bottom: 20px;
 	}
 	.slider-pr--text-desc {
@@ -792,7 +858,9 @@ button{
 		left: 0;
 		-webkit-transform: none;
 		    -ms-transform: none;
-		        transform: none;
+		        -moz-transform: none;
+		          -o-transform: none;
+		     transform: none;
 		width: auto;
 		height: 274px;
 		opacity: 0.5;
@@ -811,7 +879,9 @@ button{
 		left: 100%;
 		-webkit-transform: translate(-100%, 0);
 		    -ms-transform: translate(-100%, 0);
-		        transform: translate(-100%, 0);
+		        -moz-transform: translate(-100%, 0);
+		          -o-transform: translate(-100%, 0);
+		     transform: translate(-100%, 0);
 		width: auto;
 		height: 274px;
 		opacity: 0.5;
@@ -831,9 +901,10 @@ button{
 		width: auto;
 		height: auto;
 		z-index: 5;
-		-webkit-transition: 0.3s;
-		-o-transition: 0.3s;
-		transition: 0.3s;
+		-webkit-transition: 0.7s;
+		-o-transition: 0.7s;
+		-moz-transition: 0.7s;
+		transition: 0.7s;
 	}
 }
 
@@ -871,7 +942,8 @@ button{
 	border: 1.5px solid #fff;
 	margin: 0 10px;
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	        -moz-box-sizing: border-box;
+	     box-sizing: border-box;
 	cursor: pointer;
 	z-index: 5;
 }
@@ -879,27 +951,44 @@ button{
 		 0% { -webkit-transform: scale(1); transform: scale(1); }
 		 100% { -webkit-transform: scale(2); transform: scale(2); }
 	}
+@-moz-keyframes scale {
+		 0% { -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1); }
+		 100% { -webkit-transform: scale(2); -moz-transform: scale(2); transform: scale(2); }
+	}
+@-o-keyframes scale {
+		 0% { -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1); }
+		 100% { -webkit-transform: scale(2); -o-transform: scale(2); transform: scale(2); }
+	}
 @keyframes scale {
-		 0% { -webkit-transform: scale(1); transform: scale(1); }
-		 100% { -webkit-transform: scale(2); transform: scale(2); }
+		 0% { -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1); }
+		 100% { -webkit-transform: scale(2); -moz-transform: scale(2); -o-transform: scale(2); transform: scale(2); }
 	}
 .possibilities__button1{
  	position: absolute;
 	top: 10px;
 	left: 104px;
-	animation: scale 1s infinite;
+	-webkit-animation: scale 1s infinite;
+	        -moz-animation: scale 1s infinite;
+	          -o-animation: scale 1s infinite;
+	     animation: scale 1s infinite;
 }
 .possibilities__button2{
  	position: absolute;
 	top: 40px;
 	left: 64px;
-	animation: scale 1s infinite;
+	-webkit-animation: scale 1s infinite;
+	        -moz-animation: scale 1s infinite;
+	          -o-animation: scale 1s infinite;
+	     animation: scale 1s infinite;
 }
 .possibilities__button3{
  	position: absolute;
 	top: 55px;
 	left: 203px;
-	animation: scale 1s infinite;
+	-webkit-animation: scale 1s infinite;
+	        -moz-animation: scale 1s infinite;
+	          -o-animation: scale 1s infinite;
+	     animation: scale 1s infinite;
 }
 .possibilities__text1-item1,
 .possibilities__text1-item2,
@@ -919,10 +1008,12 @@ button{
 	position: absolute;
 	padding-left: 5px;
 	padding-top: -1px;
-	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
 	font-size: 8px;
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	        -moz-box-sizing: border-box;
+	     box-sizing: border-box;
 }
 .possibilities__text1-item1::before,
 .possibilities__text1-item2::before,
@@ -948,6 +1039,14 @@ button{
 	 0% { opacity: 0; }
 	 100% { opacity: 1; }
 }
+@-moz-keyframes op {
+	 0% { opacity: 0; }
+	 100% { opacity: 1; }
+}
+@-o-keyframes op {
+	 0% { opacity: 0; }
+	 100% { opacity: 1; }
+}
 @keyframes op {
 	 0% { opacity: 0; }
 	 100% { opacity: 1; }
@@ -957,49 +1056,73 @@ button{
 	top: -25px;
 	left: -10px;
 	-webkit-animation: op 1s ease-out;
-	        animation: op 1s ease-out;
+	        -moz-animation: op 1s ease-out;
+	          -o-animation: op 1s ease-out;
+	     animation: op 1s ease-out;
 	-webkit-animation-fill-mode: forwards;
-	        animation-fill-mode: forwards;
+	        -moz-animation-fill-mode: forwards;
+	          -o-animation-fill-mode: forwards;
+	     animation-fill-mode: forwards;
 }
 .possibilities__text2-item1{
 	opacity: 0;
 	top: -20px;
 	left: -10px;
 	-webkit-animation: op 1s ease-out;
-	        animation: op 1s ease-out;
+	        -moz-animation: op 1s ease-out;
+	          -o-animation: op 1s ease-out;
+	     animation: op 1s ease-out;
 	-webkit-animation-fill-mode: forwards;
-	        animation-fill-mode: forwards;
+	        -moz-animation-fill-mode: forwards;
+	          -o-animation-fill-mode: forwards;
+	     animation-fill-mode: forwards;
 }
 .possibilities__text3-item1{
 	opacity: 0;
 	top: -20px;
 	left: 200px;
 	-webkit-animation: op 1s ease-out;
-	        animation: op 1s ease-out;
+	        -moz-animation: op 1s ease-out;
+	          -o-animation: op 1s ease-out;
+	     animation: op 1s ease-out;
 	-webkit-animation-fill-mode: forwards;
-	        animation-fill-mode: forwards;
+	        -moz-animation-fill-mode: forwards;
+	          -o-animation-fill-mode: forwards;
+	     animation-fill-mode: forwards;
 }
 .possibilities__text1-item2{
 	opacity: 0;
 	top: -25px;
 	left: 90px;
 	-webkit-animation: op 1s ease-out;
-	        animation: op 1s ease-out;
+	        -moz-animation: op 1s ease-out;
+	          -o-animation: op 1s ease-out;
+	     animation: op 1s ease-out;
 	 -webkit-animation-delay: 0.25s;
-	         animation-delay: 0.25s; 
+	         -moz-animation-delay: 0.25s;
+	           -o-animation-delay: 0.25s;
+	      animation-delay: 0.25s; 
 	 -webkit-animation-fill-mode: forwards; 
-	         animation-fill-mode: forwards;
+	         -moz-animation-fill-mode: forwards; 
+	           -o-animation-fill-mode: forwards; 
+	      animation-fill-mode: forwards;
 }
 .possibilities__text2-item2{
 	opacity: 0;
 	top: 6px;
 	left: -10px;
 	-webkit-animation: op 1s ease-out;
-	        animation: op 1s ease-out;
+	        -moz-animation: op 1s ease-out;
+	          -o-animation: op 1s ease-out;
+	     animation: op 1s ease-out;
 	 -webkit-animation-delay: 0.25s;
-	         animation-delay: 0.25s; 
+	         -moz-animation-delay: 0.25s;
+	           -o-animation-delay: 0.25s;
+	      animation-delay: 0.25s; 
 	 -webkit-animation-fill-mode: forwards; 
-	         animation-fill-mode: forwards;
+	         -moz-animation-fill-mode: forwards; 
+	           -o-animation-fill-mode: forwards; 
+	      animation-fill-mode: forwards;
 }
 .possibilities__text3-item2{
 	opacity: 0;
@@ -1007,11 +1130,17 @@ button{
 	left: 200px;
 	width: 50px;
 	-webkit-animation: op 1s ease-out;
-	        animation: op 1s ease-out;
+	        -moz-animation: op 1s ease-out;
+	          -o-animation: op 1s ease-out;
+	     animation: op 1s ease-out;
 	 -webkit-animation-delay: 0.25s;
-	         animation-delay: 0.25s; 
+	         -moz-animation-delay: 0.25s;
+	           -o-animation-delay: 0.25s;
+	      animation-delay: 0.25s; 
 	 -webkit-animation-fill-mode: forwards; 
-	         animation-fill-mode: forwards;
+	         -moz-animation-fill-mode: forwards; 
+	           -o-animation-fill-mode: forwards; 
+	      animation-fill-mode: forwards;
 }
 .possibilities__text1-item3{
 	opacity: 0;
@@ -1020,22 +1149,34 @@ button{
 	width: 100px;
 	padding-left: 10px;
 	-webkit-animation: op 1s ease-out;
-	        animation: op 1s ease-out;
+	        -moz-animation: op 1s ease-out;
+	          -o-animation: op 1s ease-out;
+	     animation: op 1s ease-out;
 	 -webkit-animation-delay: 0.5s;
-	         animation-delay: 0.5s; 
+	         -moz-animation-delay: 0.5s;
+	           -o-animation-delay: 0.5s;
+	      animation-delay: 0.5s; 
 	 -webkit-animation-fill-mode: forwards; 
-	         animation-fill-mode: forwards;
+	         -moz-animation-fill-mode: forwards; 
+	           -o-animation-fill-mode: forwards; 
+	      animation-fill-mode: forwards;
 }
 .possibilities__text2-item3{
 	opacity: 0;
 	top: 55px;
 	left: -10px;
 	-webkit-animation: op 1s ease-out;
-	        animation: op 1s ease-out;
+	        -moz-animation: op 1s ease-out;
+	          -o-animation: op 1s ease-out;
+	     animation: op 1s ease-out;
 	 -webkit-animation-delay: 0.5s;
-	         animation-delay: 0.5s; 
+	         -moz-animation-delay: 0.5s;
+	           -o-animation-delay: 0.5s;
+	      animation-delay: 0.5s; 
 	 -webkit-animation-fill-mode: forwards; 
-	         animation-fill-mode: forwards;
+	         -moz-animation-fill-mode: forwards; 
+	           -o-animation-fill-mode: forwards; 
+	      animation-fill-mode: forwards;
 }
 .possibilities__text3-item3{
 	opacity: 0;
@@ -1043,22 +1184,34 @@ button{
 	left: 200px;
 	width: 50px;
 	-webkit-animation: op 1s ease-out;
-	        animation: op 1s ease-out;
+	        -moz-animation: op 1s ease-out;
+	          -o-animation: op 1s ease-out;
+	     animation: op 1s ease-out;
 	 -webkit-animation-delay: 0.5s;
-	         animation-delay: 0.5s; 
+	         -moz-animation-delay: 0.5s;
+	           -o-animation-delay: 0.5s;
+	      animation-delay: 0.5s; 
 	 -webkit-animation-fill-mode: forwards; 
-	         animation-fill-mode: forwards;
+	         -moz-animation-fill-mode: forwards; 
+	           -o-animation-fill-mode: forwards; 
+	      animation-fill-mode: forwards;
 }
 .possibilities__text3-item4{
 	opacity: 0;
 	top: 95px;
 	left: 200px;
 	-webkit-animation: op 1s ease-out;
-	        animation: op 1s ease-out;
+	        -moz-animation: op 1s ease-out;
+	          -o-animation: op 1s ease-out;
+	     animation: op 1s ease-out;
 	 -webkit-animation-delay: 0.75s;
-	         animation-delay: 0.75s; 
+	         -moz-animation-delay: 0.75s;
+	           -o-animation-delay: 0.75s;
+	      animation-delay: 0.75s; 
 	 -webkit-animation-fill-mode: forwards; 
-	         animation-fill-mode: forwards;
+	         -moz-animation-fill-mode: forwards; 
+	           -o-animation-fill-mode: forwards; 
+	      animation-fill-mode: forwards;
 }
 /* .possibilities__button1,
 .possibilities__button2,
@@ -1124,7 +1277,8 @@ button{
 		border: 1.5px solid #fff;
 		margin: 0 10px;
 		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		        -moz-box-sizing: border-box;
+		     box-sizing: border-box;
 		cursor: pointer;
 		z-index: 5;
 	}
@@ -1187,10 +1341,12 @@ button{
 		position: absolute;
 		padding-left: 10px;
 		padding-top: 5px;
-		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		        border-radius: 3px;
 		font-size: 16px;
 		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		        -moz-box-sizing: border-box;
+		     box-sizing: border-box;
 	}
 	.possibilities__text1-item1::before,
 	.possibilities__text1-item2::before,
@@ -1216,6 +1372,14 @@ button{
 		 0% { opacity: 0; }
 		 100% { opacity: 1; }
 	}
+	@-moz-keyframes op {
+		 0% { opacity: 0; }
+		 100% { opacity: 1; }
+	}
+	@-o-keyframes op {
+		 0% { opacity: 0; }
+		 100% { opacity: 1; }
+	}
 	@keyframes op {
 		 0% { opacity: 0; }
 		 100% { opacity: 1; }
@@ -1225,61 +1389,91 @@ button{
 		top: -35px;
 		left: 30px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		-webkit-animation-fill-mode: forwards;
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards;
+		          -o-animation-fill-mode: forwards;
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text2-item1{
 		opacity: 0;
 		top: -140px;
 		left: 30px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		-webkit-animation-fill-mode: forwards;
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards;
+		          -o-animation-fill-mode: forwards;
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text3-item1{
 		opacity: 0;
 		top: -60px;
 		left: 574px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		-webkit-animation-fill-mode: forwards;
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards;
+		          -o-animation-fill-mode: forwards;
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text1-item2{
 		opacity: 0;
 		top: 0px;
 		left: 30px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.25s;
-		         animation-delay: 0.25s; 
+		         -moz-animation-delay: 0.25s;
+		           -o-animation-delay: 0.25s;
+		      animation-delay: 0.25s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__text2-item2{
 		opacity: 0;
 		top: -150px;
 		left: 240px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.25s;
-		         animation-delay: 0.25s; 
+		         -moz-animation-delay: 0.25s;
+		           -o-animation-delay: 0.25s;
+		      animation-delay: 0.25s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__text3-item2{
 		opacity: 0;
 		top: -15px;
-		left: 574px;
+		left: 590px;
 		width: 100px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.25s;
-		         animation-delay: 0.25s; 
+		         -moz-animation-delay: 0.25s;
+		           -o-animation-delay: 0.25s;
+		      animation-delay: 0.25s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__text1-item3{
 		opacity: 0;
@@ -1288,45 +1482,69 @@ button{
 		width: 200px;
 		padding-left: 10px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.5s;
-		         animation-delay: 0.5s; 
+		         -moz-animation-delay: 0.5s;
+		           -o-animation-delay: 0.5s;
+		      animation-delay: 0.5s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__text2-item3{
 		opacity: 0;
 		top: -140px;
 		left: 450px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.5s;
-		         animation-delay: 0.5s; 
+		         -moz-animation-delay: 0.5s;
+		           -o-animation-delay: 0.5s;
+		      animation-delay: 0.5s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__text3-item3{
 		opacity: 0;
 		top: 30px;
-		left: 574px;
+		left: 590px;
 		width: 100px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.5s;
-		         animation-delay: 0.5s; 
+		         -moz-animation-delay: 0.5s;
+		           -o-animation-delay: 0.5s;
+		      animation-delay: 0.5s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__text3-item4{
 		opacity: 0;
 		top: 80px;
 		left: 574px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.75s;
-		         animation-delay: 0.75s; 
+		         -moz-animation-delay: 0.75s;
+		           -o-animation-delay: 0.75s;
+		      animation-delay: 0.75s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__image-desk{
 		display: block;
@@ -1438,7 +1656,8 @@ button{
 		border: 1.5px solid #fff;
 		margin: 0 10px;
 		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		        -moz-box-sizing: border-box;
+		     box-sizing: border-box;
 		cursor: pointer;
 		z-index: 5;
 	}
@@ -1448,7 +1667,9 @@ button{
 		top: 55px;
 		left: 350px;
 		-webkit-animation: scale 1s infinite;
-		        animation: scale 1s infinite;
+		        -moz-animation: scale 1s infinite;
+		          -o-animation: scale 1s infinite;
+		     animation: scale 1s infinite;
 	}
 	
 	@-webkit-keyframes scale {
@@ -1456,23 +1677,37 @@ button{
 		 100% { -webkit-transform: scale(2); transform: scale(2); }
 	}
 	
+	@-moz-keyframes scale {
+		 0% { -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1); }
+		 100% { -webkit-transform: scale(2); -moz-transform: scale(2); transform: scale(2); }
+	}
+	
+	@-o-keyframes scale {
+		 0% { -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1); }
+		 100% { -webkit-transform: scale(2); -o-transform: scale(2); transform: scale(2); }
+	}
+	
 	@keyframes scale {
-		 0% { -webkit-transform: scale(1); transform: scale(1); }
-		 100% { -webkit-transform: scale(2); transform: scale(2); }
+		 0% { -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1); }
+		 100% { -webkit-transform: scale(2); -moz-transform: scale(2); -o-transform: scale(2); transform: scale(2); }
 	}
 	.possibilities__button2{
 	 	position: absolute;
 		top: -50px;
 		left: 490px;
 		-webkit-animation: scale 1s infinite;
-		        animation: scale 1s infinite;
+		        -moz-animation: scale 1s infinite;
+		          -o-animation: scale 1s infinite;
+		     animation: scale 1s infinite;
 	}
 	.possibilities__button3{
 	 	position: absolute;
 		top: 95px;
 		left: 855px;
 		-webkit-animation: scale 1s infinite;
-		        animation: scale 1s infinite;
+		        -moz-animation: scale 1s infinite;
+		          -o-animation: scale 1s infinite;
+		     animation: scale 1s infinite;
 	}
 	.possibilities__info{
 		display: none;
@@ -1502,9 +1737,11 @@ button{
 		position: absolute;
 		padding-left: 10px;
 		padding-top: 5px;
-		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		        border-radius: 3px;
 		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		        -moz-box-sizing: border-box;
+		     box-sizing: border-box;
 	}
 	.possibilities__text1-item1::before,
 	.possibilities__text1-item2::before,
@@ -1530,6 +1767,14 @@ button{
 		 0% { opacity: 0; }
 		 100% { opacity: 1; }
 	}
+	@-moz-keyframes op {
+		 0% { opacity: 0; }
+		 100% { opacity: 1; }
+	}
+	@-o-keyframes op {
+		 0% { opacity: 0; }
+		 100% { opacity: 1; }
+	}
 	@keyframes op {
 		 0% { opacity: 0; }
 		 100% { opacity: 1; }
@@ -1538,56 +1783,86 @@ button{
 		top: -15px;
 		left: 95px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		-webkit-animation-fill-mode: forwards;
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards;
+		          -o-animation-fill-mode: forwards;
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text2-item1{
 		top: -215px;
 		left: 230px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		-webkit-animation-fill-mode: forwards;
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards;
+		          -o-animation-fill-mode: forwards;
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text3-item1{
 		top: 10px;
 		left: 935px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		-webkit-animation-fill-mode: forwards;
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards;
+		          -o-animation-fill-mode: forwards;
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text1-item2{
 		top: 35px;
 		left: 75px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.25s;
-		         animation-delay: 0.25s; 
+		         -moz-animation-delay: 0.25s;
+		           -o-animation-delay: 0.25s;
+		      animation-delay: 0.25s; 
 		-webkit-animation-fill-mode: forwards; 
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards; 
+		          -o-animation-fill-mode: forwards; 
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text2-item2{
 		top: -240px;
 		left: 430px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.25s;
-		         animation-delay: 0.25s; 
+		         -moz-animation-delay: 0.25s;
+		           -o-animation-delay: 0.25s;
+		      animation-delay: 0.25s; 
 		-webkit-animation-fill-mode: forwards; 
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards; 
+		          -o-animation-fill-mode: forwards; 
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text3-item2{
 		top: 55px;
-		left: 935px;
+		left: 950px;
 		width: 100px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.25s;
-		         animation-delay: 0.25s; 
+		         -moz-animation-delay: 0.25s;
+		           -o-animation-delay: 0.25s;
+		      animation-delay: 0.25s; 
 		-webkit-animation-fill-mode: forwards; 
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards; 
+		          -o-animation-fill-mode: forwards; 
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text1-item3{
 		top: 85px;
@@ -1595,42 +1870,66 @@ button{
 		width: 200px;
 		padding-left: 10px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.5s;
-		         animation-delay: 0.5s; 
+		         -moz-animation-delay: 0.5s;
+		           -o-animation-delay: 0.5s;
+		      animation-delay: 0.5s; 
 		-webkit-animation-fill-mode: forwards; 
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards; 
+		          -o-animation-fill-mode: forwards; 
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text2-item3{
 		top: -215px;
 		left: 630px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.5s;
-		         animation-delay: 0.5s; 
+		         -moz-animation-delay: 0.5s;
+		           -o-animation-delay: 0.5s;
+		      animation-delay: 0.5s; 
 		-webkit-animation-fill-mode: forwards; 
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards; 
+		          -o-animation-fill-mode: forwards; 
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text3-item3{
 		top: 100px;
-		left: 935px;
+		left: 950px;
 		width: 100px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.5s;
-		         animation-delay: 0.5s; 
+		         -moz-animation-delay: 0.5s;
+		           -o-animation-delay: 0.5s;
+		      animation-delay: 0.5s; 
 		-webkit-animation-fill-mode: forwards; 
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards; 
+		          -o-animation-fill-mode: forwards; 
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text3-item4{
 		top: 141px;
 		left: 935px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.75s;
-		         animation-delay: 0.75s; 
+		         -moz-animation-delay: 0.75s;
+		           -o-animation-delay: 0.75s;
+		      animation-delay: 0.75s; 
 		-webkit-animation-fill-mode: forwards; 
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards; 
+		          -o-animation-fill-mode: forwards; 
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__image-desk{
 		display: block;
@@ -1639,7 +1938,9 @@ button{
 		left: 50%;
 		-webkit-transform: translate(-50%, 0);
 		    -ms-transform: translate(-50%, 0);
-		        transform: translate(-50%, 0);
+		        -moz-transform: translate(-50%, 0);
+		          -o-transform: translate(-50%, 0);
+		     transform: translate(-50%, 0);
 		width: 1224px;
 		height: 689px;
 		-webkit-background-size: contain;
@@ -1754,7 +2055,8 @@ button{
 		border: 1.5px solid #fff;
 		margin: 0 10px;
 		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		        -moz-box-sizing: border-box;
+		     box-sizing: border-box;
 		cursor: pointer;
 	}
 
@@ -1803,9 +2105,11 @@ button{
 		position: absolute;
 		padding-left: 10px;
 		padding-top: 5px;
-		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		        border-radius: 3px;
 		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		        -moz-box-sizing: border-box;
+		     box-sizing: border-box;
 	}
 	.possibilities__text1-item1::before,
 	.possibilities__text1-item2::before,
@@ -1831,6 +2135,14 @@ button{
 		 0% { opacity: 0; }
 		 100% { opacity: 1; }
 	}
+	@-moz-keyframes op {
+		 0% { opacity: 0; }
+		 100% { opacity: 1; }
+	}
+	@-o-keyframes op {
+		 0% { opacity: 0; }
+		 100% { opacity: 1; }
+	}
 	@keyframes op {
 		 0% { opacity: 0; }
 		 100% { opacity: 1; }
@@ -1839,56 +2151,86 @@ button{
 		top: -135px;
 		left: -25px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		-webkit-animation-fill-mode: forwards;
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards;
+		          -o-animation-fill-mode: forwards;
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text2-item1{
 		top: -440px;
 		left: 206px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		-webkit-animation-fill-mode: forwards;
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards;
+		          -o-animation-fill-mode: forwards;
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text3-item1{
 		top: -106px;
 		left: 1071px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		-webkit-animation-fill-mode: forwards;
-		        animation-fill-mode: forwards;
+		        -moz-animation-fill-mode: forwards;
+		          -o-animation-fill-mode: forwards;
+		     animation-fill-mode: forwards;
 	}
 	.possibilities__text1-item2{
 		top: -85px;
 		left: -65px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.25s;
-		         animation-delay: 0.25s; 
+		         -moz-animation-delay: 0.25s;
+		           -o-animation-delay: 0.25s;
+		      animation-delay: 0.25s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__text2-item2{
 		top: -458px;
 		left: 395px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.25s;
-		         animation-delay: 0.25s; 
+		         -moz-animation-delay: 0.25s;
+		           -o-animation-delay: 0.25s;
+		      animation-delay: 0.25s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__text3-item2{
 		top: -55px;
-		left: 1071px;
+		left: 1090px;
 		width: 100px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.25s;
-		         animation-delay: 0.25s; 
+		         -moz-animation-delay: 0.25s;
+		           -o-animation-delay: 0.25s;
+		      animation-delay: 0.25s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__text1-item3{
 		top: -37px;
@@ -1896,42 +2238,66 @@ button{
 		width: 200px;
 		padding-left: 10px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.5s;
-		         animation-delay: 0.5s; 
+		         -moz-animation-delay: 0.5s;
+		           -o-animation-delay: 0.5s;
+		      animation-delay: 0.5s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__text2-item3{
 		top: -436px;
 		left: 582px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.5s;
-		         animation-delay: 0.5s; 
+		         -moz-animation-delay: 0.5s;
+		           -o-animation-delay: 0.5s;
+		      animation-delay: 0.5s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__text3-item3{
 		top: -8px;
-		left: 1071px;
+		left: 1090px;
 		width: 100px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.5s;
-		         animation-delay: 0.5s; 
+		         -moz-animation-delay: 0.5s;
+		           -o-animation-delay: 0.5s;
+		      animation-delay: 0.5s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__text3-item4{
 		top: 41px;
 		left: 1071px;
 		-webkit-animation: op 1s ease-out;
-		        animation: op 1s ease-out;
+		        -moz-animation: op 1s ease-out;
+		          -o-animation: op 1s ease-out;
+		     animation: op 1s ease-out;
 		 -webkit-animation-delay: 0.75s;
-		         animation-delay: 0.75s; 
+		         -moz-animation-delay: 0.75s;
+		           -o-animation-delay: 0.75s;
+		      animation-delay: 0.75s; 
 		 -webkit-animation-fill-mode: forwards; 
-		         animation-fill-mode: forwards;
+		         -moz-animation-fill-mode: forwards; 
+		           -o-animation-fill-mode: forwards; 
+		      animation-fill-mode: forwards;
 	}
 	.possibilities__image-desk{
 		display: block;
@@ -1940,7 +2306,9 @@ button{
 		left: 50%;
 		-webkit-transform: translate(-50%, 0);
 		    -ms-transform: translate(-50%, 0);
-		        transform: translate(-50%, 0);
+		        -moz-transform: translate(-50%, 0);
+		          -o-transform: translate(-50%, 0);
+		     transform: translate(-50%, 0);
 		width: 1726px;
 		height: 971px;
 		-webkit-background-size: contain;
@@ -2201,7 +2569,7 @@ button{
 	-webkit-border-radius: 50%;
 	        border-radius: 50%;
 	border: 1.5px solid #B4B4B4;
-	margin: 0 10px;
+	margin: 0 13px;
 	cursor: pointer;
 }
 .development__button__active {
@@ -2222,11 +2590,28 @@ button{
 	position: relative;
 }
 .development__buttons{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            -moz-box-pack: center;
+         justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            -moz-box-align: center;
+         align-items: center;
 	position: absolute;
 	left: 50%;
 	-webkit-transform: translate(-50%, 0);
 	    -ms-transform: translate(-50%, 0);
-	        transform: translate(-50%, 0);
+	        -moz-transform: translate(-50%, 0);
+	          -o-transform: translate(-50%, 0);
+	     transform: translate(-50%, 0);
 	top: 225px;
 }
 
@@ -2242,11 +2627,11 @@ button{
 	.development__info{
 		padding-left: 10%;
 		width: 28%;
-		height: 250px;
+		height: 330px;
 		padding-bottom: 7%;
 		position: relative;
 		text-align: left;
-}
+	}
 	
 	.development__num{
 		position: absolute;
@@ -2307,7 +2692,9 @@ button{
 		top: 75%;
 		-webkit-transform: none;
 		    -ms-transform: none;
-		        transform: none;
+		        -moz-transform: none;
+		          -o-transform: none;
+		     transform: none;
 	}
 }
 @media (min-width: 1360px) {
@@ -2321,6 +2708,7 @@ button{
 	.development__info{
 		padding-left: 15%;
 		width: 21%;
+		height: 250px;
 		padding-bottom: 13%;
 		position: relative;
 	}
@@ -2467,6 +2855,7 @@ button{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
+	display: -moz-box;
 	display: flex;
 	-webkit-flex-wrap: wrap;
 	    -ms-flex-wrap: wrap;
@@ -2489,7 +2878,8 @@ button{
 	-webkit-box-align: center;
 	-webkit-align-items: center;
 	    -ms-flex-align: center;
-	        align-items: center;
+	        -moz-box-align: center;
+	     align-items: center;
 	cursor: pointer;
 	max-width: 100%;
 	margin: 0 auto;
@@ -2530,7 +2920,9 @@ button{
 	left: 50%;
 	-webkit-transform: translate(-50%,-50%);
 	    -ms-transform: translate(-50%,-50%);
-	        transform: translate(-50%,-50%);
+	        -moz-transform: translate(-50%,-50%);
+	          -o-transform: translate(-50%,-50%);
+	     transform: translate(-50%,-50%);
 	width: 200px;
 	font: inherit;
 	font-size: 13px;
@@ -2560,6 +2952,7 @@ button{
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
+		display: -moz-box;
 		display: flex;
 		-webkit-flex-wrap: wrap;
 		    -ms-flex-wrap: wrap;
@@ -2572,7 +2965,8 @@ button{
 		-webkit-box-align: center;
 		-webkit-align-items: center;
 		    -ms-flex-align: center;
-		        align-items: center;
+		        -moz-box-align: center;
+		     align-items: center;
 		cursor: pointer;
 		max-width: 50%;
 		margin: 0 auto;
@@ -2595,6 +2989,7 @@ button{
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
+		display: -moz-box;
 		display: flex;
 		-webkit-flex-wrap: wrap;
 		    -ms-flex-wrap: wrap;
@@ -2605,7 +3000,8 @@ button{
 		-webkit-box-align: center;
 		-webkit-align-items: center;
 		    -ms-flex-align: center;
-		        align-items: center;
+		        -moz-box-align: center;
+		     align-items: center;
 		cursor: pointer;
 		max-width: 50%;
 		margin: 0 auto;
@@ -2642,6 +3038,7 @@ button{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
+	display: -moz-box;
 	display: flex;
 	-webkit-flex-wrap: wrap;
 	    -ms-flex-wrap: wrap;
@@ -2682,6 +3079,12 @@ button{
 	color: #4D69A0;
 }
 .footer__form input::-ms-input-placeholder{
+	color: #4D69A0;
+}
+.footer__form input:-moz-placeholder{
+	color: #4D69A0;
+}
+.footer__form input::-moz-placeholder{
 	color: #4D69A0;
 }
 .footer__form input::placeholder{
@@ -2743,6 +3146,12 @@ button{
 	color: #3A65C0;
 }
 .footer__form-main-data-n::-ms-input-placeholder{
+	color: #3A65C0;
+}
+.footer__form-main-data-n:-moz-placeholder{
+	color: #3A65C0;
+}
+.footer__form-main-data-n::-moz-placeholder{
 	color: #3A65C0;
 }
 .footer__form-main-data-n::placeholder{
@@ -2811,7 +3220,8 @@ button{
 	margin-top: 15px;
 	border: 2px solid #FFFFFF;
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	        -moz-box-sizing: border-box;
+	     box-sizing: border-box;
 	-webkit-border-radius: 7px;
 	        border-radius: 7px;
 	padding: 10px 11px;
@@ -2858,6 +3268,7 @@ button{
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
+		display: -moz-box;
 		display: flex;
 		-webkit-flex-wrap: nowrap;
 		    -ms-flex-wrap: nowrap;
@@ -2866,7 +3277,8 @@ button{
 		-webkit-box-pack: justify;
 		-webkit-justify-content: space-between;
 		    -ms-flex-pack: justify;
-		        justify-content: space-between;
+		        -moz-box-pack: justify;
+		     justify-content: space-between;
 		max-width: 720px;
 		margin: 0 auto;
 	}
@@ -2914,6 +3326,7 @@ button{
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
+		display: -moz-box;
 		display: flex;
 		-webkit-flex-wrap: nowrap;
 		    -ms-flex-wrap: nowrap;
@@ -2922,7 +3335,8 @@ button{
 		-webkit-box-pack: justify;
 		-webkit-justify-content: space-between;
 		    -ms-flex-pack: justify;
-		        justify-content: space-between;
+		        -moz-box-pack: justify;
+		     justify-content: space-between;
 
 	}
 	
@@ -3009,7 +3423,8 @@ button{
 		margin-top: 24px;
 		border: 2px solid #FFFFFF;
 		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		        -moz-box-sizing: border-box;
+		     box-sizing: border-box;
 		-webkit-border-radius: 4px;
 		        border-radius: 4px;
 		padding: 11px 13px;
@@ -3052,11 +3467,14 @@ button{
 	z-index: 30;
 	position: fixed;
 	top: 80px;
+	right: -webkit-calc( 50% - 140px );
+	right: -moz-calc( 50% - 140px );
 	right: calc( 50% - 140px );
 	width: 280px;
 	height: auto;
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	        -moz-box-sizing: border-box;
+	     box-sizing: border-box;
 	padding: 25px 30px;
 	background: #001B50;
 	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
@@ -3081,6 +3499,7 @@ button{
 	cursor: pointer;
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
+	-moz-transition: 0.3s;
 	transition: 0.3s;
 }
 .popup--close-btn:hover {
@@ -3119,6 +3538,12 @@ button{
 	color: #4D69A0;
 }
 .popup--form-input::-ms-input-placeholder{
+	color: #4D69A0;
+}
+.popup--form-input:-moz-placeholder{
+	color: #4D69A0;
+}
+.popup--form-input::-moz-placeholder{
 	color: #4D69A0;
 }
 .popup--form-input::placeholder{
@@ -3172,7 +3597,8 @@ button{
 	background: transparent;
 	border: 2px solid #FFFFFF;
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	        -moz-box-sizing: border-box;
+	     box-sizing: border-box;
 	-webkit-border-radius: 4px;
 	        border-radius: 4px;
 	margin-top: 17px;
@@ -3194,12 +3620,16 @@ button{
 }
 @media(min-width: 768px){
 	.popup {
+		right: -webkit-calc( 50% - 360px );
+		right: -moz-calc( 50% - 360px );
 		right: calc( 50% - 360px );
 	}
 }
 @media(min-width: 1360px){
 	.popup {
 		top: 100px;
+		right: -webkit-calc( 50% - 575px );
+		right: -moz-calc( 50% - 575px );
 		right: calc( 50% - 575px );
 		width: 420px;
 		height: 346px;
@@ -3246,7 +3676,9 @@ button{
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	    -ms-transform: translate(-50%, -50%);
-	        transform: translate(-50%, -50%);
+	        -moz-transform: translate(-50%, -50%);
+	          -o-transform: translate(-50%, -50%);
+	     transform: translate(-50%, -50%);
 	z-index: 1000;
 }
 .modal__form-q{
@@ -3287,6 +3719,12 @@ button{
 	color: #4D69A0;
 }
 .modal__form-data-n::-ms-input-placeholder{
+	color: #4D69A0;
+}
+.modal__form-data-n:-moz-placeholder{
+	color: #4D69A0;
+}
+.modal__form-data-n::-moz-placeholder{
 	color: #4D69A0;
 }
 .modal__form-data-n::placeholder{
@@ -3351,7 +3789,8 @@ button{
 	margin-top: 15px;
 	border: 2px solid #FFFFFF;
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	        -moz-box-sizing: border-box;
+	     box-sizing: border-box;
 	-webkit-border-radius: 4px;
 	        border-radius: 4px;
 	padding: 10px 11px;
@@ -3373,6 +3812,7 @@ button{
 	cursor: pointer;
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
+	-moz-transition: 0.3s;
 	transition: 0.3s;
 }
 .modal__form--close-btn:hover {
@@ -3390,7 +3830,9 @@ button{
     padding-bottom: 70px;
     -webkit-transform: translateY(70px);
         -ms-transform: translateY(70px);
-            transform: translateY(70px);
+            -moz-transform: translateY(70px);
+              -o-transform: translateY(70px);
+         transform: translateY(70px);
     z-index: 250;
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -3439,7 +3881,8 @@ button{
 		margin-top: 24px;
 		border: 2px solid #FFFFFF;
 		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		        -moz-box-sizing: border-box;
+		     box-sizing: border-box;
 		-webkit-border-radius: 4px;
 		        border-radius: 4px;
 		padding: 13px 15px;

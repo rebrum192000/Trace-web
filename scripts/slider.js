@@ -12,7 +12,7 @@ function plusSlide() {
 }
 setInterval(function() { 
             plusSlide();
-        },3000);
+        },5000);
 
 
 /* Основная функция слайдера */
