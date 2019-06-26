@@ -765,7 +765,7 @@ button{
 	
 	.slider-pr--item__prev .slider-pr--text,
 	.slider-pr--item__next .slider-pr--text {
-		display: none;
+		display: none!important;
 	}
 	.slider-pr--item {
 		z-index: 2;
@@ -850,6 +850,10 @@ button{
 	}
 	.slider-pr--item:first-of-type .slider-pr--text-desc {
 		padding: 0 208px;
+	}
+	.slider-pr--item__prev .slider-pr--text,
+	.slider-pr--item__next .slider-pr--text {
+		display: none!important;
 	}
 	.slider-pr--item__prev img {
 		display: block;
