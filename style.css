@@ -59,7 +59,8 @@ button{
 	background: -moz-linear-gradient(left, #FFAD00 0%, rgba(255, 173, 0, 0) 100%), #FF8008; 
 	background: linear-gradient(90deg, #FFAD00 0%, rgba(255, 173, 0, 0) 100%), #FF8008;
 	-webkit-border-radius: 4px;
-	        border-radius: 4px;
+	        -moz-border-radius: 4px;
+	     border-radius: 4px;
 	padding: 13px 17px;
 	color: #fff;
 	text-transform: uppercase;
@@ -80,16 +81,20 @@ button{
 .orange-button:hover{
 	background: #FFAD00;
 	-webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
-	        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+	        -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+	     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
 	-webkit-border-radius: 4px;
-	        border-radius: 4px;
+	        -moz-border-radius: 4px;
+	     border-radius: 4px;
 }
 .orange-button:active{
 	background: #FF8008;
 	-webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
-	        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+	        -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+	     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
 	-webkit-border-radius: 4px;
-	        border-radius: 4px;
+	        -moz-border-radius: 4px;
+	     border-radius: 4px;
 }
 
 @media (min-width: 320px) {
@@ -158,7 +163,8 @@ button{
 .header--burger-btn:hover::before {
 	background-color: rgba(255, 255, 255, 0.6);
 	-webkit-box-shadow: 0px 8px rgba(255, 255, 255, 0.6), 0px 16px rgba(255, 255, 255, 0.6);
-	        box-shadow: 0px 8px rgba(255, 255, 255, 0.6), 0px 16px rgba(255, 255, 255, 0.6);
+	        -moz-box-shadow: 0px 8px rgba(255, 255, 255, 0.6), 0px 16px rgba(255, 255, 255, 0.6);
+	     box-shadow: 0px 8px rgba(255, 255, 255, 0.6), 0px 16px rgba(255, 255, 255, 0.6);
 }
 .header--burger-btn::before {
 	position: absolute;
@@ -169,7 +175,8 @@ button{
 	height: 2px;
 	background-color: #ffffff;
 	-webkit-box-shadow: 0px 8px #ffffff, 0px 16px #ffffff;
-	        box-shadow: 0px 8px #ffffff, 0px 16px #ffffff;
+	        -moz-box-shadow: 0px 8px #ffffff, 0px 16px #ffffff;
+	     box-shadow: 0px 8px #ffffff, 0px 16px #ffffff;
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
 	-moz-transition: 0.3s;
@@ -358,7 +365,8 @@ button{
 		        -moz-box-sizing: border-box;
 		     box-sizing: border-box;
 		-webkit-border-radius: 4px;
-		        border-radius: 4px;
+		        -moz-border-radius: 4px;
+		     border-radius: 4px;
 		
 		font: inherit;
 		font-family: 'Istok Web Bold';
@@ -484,8 +492,9 @@ button{
 	background-image: url("img/first-bg.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	-webkit-background-size: cover;
-	        background-size: cover;
+	-moz-background-size: cover;
+	  -o-background-size: cover;
+	     background-size: cover;
 	margin-top: 60px;
 	padding-bottom: 20px;
 	z-index: 1;
@@ -503,8 +512,9 @@ button{
 	background-image: url("img/first-blue.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	-webkit-background-size: cover;
-	        background-size: cover;
+	-moz-background-size: cover;
+	  -o-background-size: cover;
+	     background-size: cover;
 	z-index: -1;
 }
 .first--title {
@@ -602,7 +612,8 @@ button{
 	padding: 0;
 	background: transparent;
 	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	        -moz-border-radius: 50%;
+	     border-radius: 50%;
 	border: 1.5px solid #B4B4B4;
 	margin: 0 13px;
 	cursor: pointer;
@@ -619,7 +630,8 @@ button{
 	height: 12px;
 	background: #001B50;
 	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	        -moz-border-radius: 50%;
+	     border-radius: 50%;
 }
 .slider-pr--wrap {
 	position: relative;
@@ -642,9 +654,11 @@ button{
 	     box-sizing: border-box;
 	border: 2px solid #FFFFFF;
 	-webkit-box-shadow:	0px -7px 17px rgba(18, 32, 92, 0.25);
-	        box-shadow: 0px -7px 17px rgba(18, 32, 92, 0.25);
+	        -moz-box-shadow: 0px -7px 17px rgba(18, 32, 92, 0.25);
+	     box-shadow: 0px -7px 17px rgba(18, 32, 92, 0.25);
 	-webkit-border-radius: 3px;
-	        border-radius: 3px;
+	        -moz-border-radius: 3px;
+	     border-radius: 3px;
 	width: 100%;
 	height: auto;
 }
@@ -656,8 +670,9 @@ button{
 		background-image: url("img/sl-bg.png");
 		background-repeat: no-repeat;
 		background-position: center;
-		-webkit-background-size: contain;
-		        background-size: contain;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 		padding-top: 60px;
 		padding-bottom: 20px;
 	}
@@ -675,7 +690,8 @@ button{
 		width: 100%;
 		height: 200px;
 		-webkit-border-radius: 5px;
-		        border-radius: 5px;
+		        -moz-border-radius: 5px;
+		     border-radius: 5px;
 		background-color: rgba(255, 255, 255, 1);
 	}
 	.slider-pr--button {
@@ -685,7 +701,8 @@ button{
 		padding: 0;
 		background: transparent;
 		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		        -moz-border-radius: 50%;
+		     border-radius: 50%;
 		border: 1.5px solid #B4B4B4;
 		margin: 0 13px;
 		cursor: pointer;
@@ -702,7 +719,8 @@ button{
 		height: 12px;
 		background: #001B50;
 		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		        -moz-border-radius: 50%;
+		     border-radius: 50%;
 	}
 	.slider-pr--wrap {
 		position: relative;
@@ -734,12 +752,15 @@ button{
 		height: 200px;
 		opacity: 0.5; 
 		-webkit-box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25); 
-		        box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
+		        -moz-box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25); 
+		     box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
 		-webkit-border-radius: 3px;
-		        border-radius: 3px;
+		        -moz-border-radius: 3px;
+		     border-radius: 3px;
 		z-index: 1;
-		-webkit-background-size: contain;
-		        background-size: contain;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 	}
 	.slider-pr--item__next img {
 		display: block;
@@ -756,11 +777,14 @@ button{
 		opacity: 0.5; 
 		z-index: 1;
 		-webkit-box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
-		        box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
+		        -moz-box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
+		     box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
 		-webkit-border-radius: 3px;
-		        border-radius: 3px;
-		-webkit-background-size: contain;
-		        background-size: contain;
+		        -moz-border-radius: 3px;
+		     border-radius: 3px;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 	}
 	
 	.slider-pr--item__prev .slider-pr--text,
@@ -796,8 +820,9 @@ button{
 		background-image: none;
 		background-repeat: no-repeat;
 		background-position: center 75%;
-		-webkit-background-size: cover;
-		        background-size: cover;
+		-moz-background-size: cover;
+		  -o-background-size: cover;
+		     background-size: cover;
 		padding-top: 60px;
 		padding-bottom: 8px;
 		position: relative;
@@ -811,8 +836,9 @@ button{
 		height: 1087px;
 		background-image: url("img/map_fon-n.png");
 		background-repeat: no-repeat;
-		-webkit-background-size: cover;
-		        background-size: cover;
+		-moz-background-size: cover;
+		  -o-background-size: cover;
+		     background-size: cover;
 		padding-top: 60px;
 		padding-bottom: 8px;
 		z-index: -1;
@@ -828,7 +854,8 @@ button{
 		width: 100%;
 		height: 274px;
 		-webkit-border-radius: 5px;
-		        border-radius: 5px;
+		        -moz-border-radius: 5px;
+		     border-radius: 5px;
 		background-color: rgba(255, 255, 255, 1);
 	}
 	.slider-pr--text-desc {
@@ -870,11 +897,14 @@ button{
 		opacity: 0.5;
 		z-index: 1;
 		-webkit-box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
-		        box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
+		        -moz-box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
+		     box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
 		-webkit-border-radius: 3px;
-		        border-radius: 3px;
-		-webkit-background-size: contain;
-		        background-size: contain;
+		        -moz-border-radius: 3px;
+		     border-radius: 3px;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 	}
 	.slider-pr--item__next img {
 		display: block;
@@ -891,11 +921,14 @@ button{
 		opacity: 0.5;
 		z-index: 1;
 		-webkit-box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
-		        box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
+		        -moz-box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
+		     box-shadow: 0px -5px 15px rgba(18, 32, 92, 0.25);
 		-webkit-border-radius: 3px;
-		        border-radius: 3px;
-		-webkit-background-size: contain;
-		        background-size: contain;
+		        -moz-border-radius: 3px;
+		     border-radius: 3px;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 	}
 	.slider-pr--image {
 		border: 2px solid #FFFFFF;
@@ -921,8 +954,9 @@ button{
 .possibilities{
 	background: url('img/pos-bg.png') no-repeat;
 	background-position: center;
-	-webkit-background-size: 100% 100%;
-	        background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	  -o-background-size: 100% 100%;
+	     background-size: 100% 100%;
 	margin-bottom: 180px;
 }
 .possibilities__heading{
@@ -942,7 +976,8 @@ button{
 	padding: 0;
 	background: #102F6A;
 	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	        -moz-border-radius: 50%;
+	     border-radius: 50%;
 	border: 1.5px solid #fff;
 	margin: 0 10px;
 	-webkit-box-sizing: border-box;
@@ -1013,7 +1048,8 @@ button{
 	padding-left: 5px;
 	padding-top: -1px;
 	-webkit-border-radius: 3px;
-	        border-radius: 3px;
+	        -moz-border-radius: 3px;
+	     border-radius: 3px;
 	font-size: 8px;
 	-webkit-box-sizing: border-box;
 	        -moz-box-sizing: border-box;
@@ -1037,7 +1073,8 @@ button{
 	width: 2px;
 	height: 2px;
 	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	        -moz-border-radius: 50%;
+	     border-radius: 50%;
 }
 @-webkit-keyframes op {
 	 0% { opacity: 0; }
@@ -1228,8 +1265,9 @@ button{
 	left: 0;
 	width: 300px;
 	height: auto;
-	-webkit-background-size: contain;
-	        background-size: contain;
+	-moz-background-size: contain;
+	  -o-background-size: contain;
+	     background-size: contain;
 	margin-left: -17px;
 }
 .possibilities__info{
@@ -1256,8 +1294,9 @@ button{
 	.possibilities{
 		background: url('img/pos-bg.png') no-repeat;
 		background-position: center;
-		-webkit-background-size: 100% 100%;
-		        background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		  -o-background-size: 100% 100%;
+		     background-size: 100% 100%;
 		margin-bottom: 180px;
 	}
 	.possibilities__heading{
@@ -1277,7 +1316,8 @@ button{
 		padding: 0;
 		background: #102F6A;
 		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		        -moz-border-radius: 50%;
+		     border-radius: 50%;
 		border: 1.5px solid #fff;
 		margin: 0 10px;
 		-webkit-box-sizing: border-box;
@@ -1313,8 +1353,9 @@ button{
 		left: 0;
 		width: 300px;
 		height: auto;
-		-webkit-background-size: contain;
-		        background-size: contain;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 		margin-left: -17px;
 	}
 	.possibilities__info{
@@ -1346,7 +1387,8 @@ button{
 		padding-left: 10px;
 		padding-top: 5px;
 		-webkit-border-radius: 3px;
-		        border-radius: 3px;
+		        -moz-border-radius: 3px;
+		     border-radius: 3px;
 		font-size: 16px;
 		-webkit-box-sizing: border-box;
 		        -moz-box-sizing: border-box;
@@ -1370,7 +1412,8 @@ button{
 		width: 6px;
 		height: 6px;
 		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		        -moz-border-radius: 50%;
+		     border-radius: 50%;
 	}
 	@-webkit-keyframes op {
 		 0% { opacity: 0; }
@@ -1557,8 +1600,9 @@ button{
 		left: 25px;
 		width: 100%;
 		height: auto;
-		-webkit-background-size: contain;
-		        background-size: contain;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 		margin-left: -17px;
 	}
 	.possibilities__image{
@@ -1635,8 +1679,9 @@ button{
 	.possibilities{
 		background: url('img/pos-bg.png') no-repeat;
 		background-position: center;
-		-webkit-background-size: 100% 100%;
-		        background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		  -o-background-size: 100% 100%;
+		     background-size: 100% 100%;
 		margin-bottom: 350px;
 	}
 	.possibilities__heading{
@@ -1656,7 +1701,8 @@ button{
 		padding: 0;
 		background: #102F6A;
 		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		        -moz-border-radius: 50%;
+		     border-radius: 50%;
 		border: 1.5px solid #fff;
 		margin: 0 10px;
 		-webkit-box-sizing: border-box;
@@ -1742,7 +1788,8 @@ button{
 		padding-left: 10px;
 		padding-top: 5px;
 		-webkit-border-radius: 3px;
-		        border-radius: 3px;
+		        -moz-border-radius: 3px;
+		     border-radius: 3px;
 		-webkit-box-sizing: border-box;
 		        -moz-box-sizing: border-box;
 		     box-sizing: border-box;
@@ -1765,7 +1812,8 @@ button{
 		width: 6px;
 		height: 6px;
 		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		        -moz-border-radius: 50%;
+		     border-radius: 50%;
 	}
 	@-webkit-keyframes op {
 		 0% { opacity: 0; }
@@ -1947,8 +1995,9 @@ button{
 		     transform: translate(-50%, 0);
 		width: 1224px;
 		height: 689px;
-		-webkit-background-size: contain;
-		        background-size: contain;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 		margin-left: -17px;
 	}
 	.possibilities__image{
@@ -2034,8 +2083,9 @@ button{
 	.possibilities{
 		background: url('img/pos-bg.png') no-repeat;
 		background-position: center;
-		-webkit-background-size: 100% 100%;
-		        background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		  -o-background-size: 100% 100%;
+		     background-size: 100% 100%;
 		margin-bottom: 297px;
 	}
 	.possibilities__heading{
@@ -2055,7 +2105,8 @@ button{
 		padding: 0;
 		background: #102F6A;
 		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		        -moz-border-radius: 50%;
+		     border-radius: 50%;
 		border: 1.5px solid #fff;
 		margin: 0 10px;
 		-webkit-box-sizing: border-box;
@@ -2110,7 +2161,8 @@ button{
 		padding-left: 10px;
 		padding-top: 5px;
 		-webkit-border-radius: 3px;
-		        border-radius: 3px;
+		        -moz-border-radius: 3px;
+		     border-radius: 3px;
 		-webkit-box-sizing: border-box;
 		        -moz-box-sizing: border-box;
 		     box-sizing: border-box;
@@ -2133,7 +2185,8 @@ button{
 		width: 6px;
 		height: 6px;
 		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		        -moz-border-radius: 50%;
+		     border-radius: 50%;
 	}
 	@-webkit-keyframes op {
 		 0% { opacity: 0; }
@@ -2315,8 +2368,9 @@ button{
 		     transform: translate(-50%, 0);
 		width: 1726px;
 		height: 971px;
-		-webkit-background-size: contain;
-		        background-size: contain;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 		margin-left: -17px;
 	}
 	.possibilities__image{
@@ -2423,8 +2477,9 @@ button{
 	display: block;
 	width: 90%;
 	height: auto;
-	-webkit-background-size: contain;
-	        background-size: contain;
+	-moz-background-size: contain;
+	  -o-background-size: contain;
+	     background-size: contain;
 	margin: 0 auto;
 	padding-bottom: 62px;
 }
@@ -2454,8 +2509,9 @@ button{
 		display: block;
 		width: 720px;
 		height: 459px;
-		-webkit-background-size: contain;
-		        background-size: contain;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 		margin: 0 auto;
 		padding-bottom: 62px;
 	}
@@ -2529,8 +2585,9 @@ button{
 	position: absolute;
 	top: -230px;
 	left: 130px;
-	-webkit-background-size: contain;
-	        background-size: contain;
+	-moz-background-size: contain;
+	  -o-background-size: contain;
+	     background-size: contain;
 	width: 40px;
 	height: 40px;
 }
@@ -2571,7 +2628,8 @@ button{
 	padding: 0;
 	background: transparent;
 	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	        -moz-border-radius: 50%;
+	     border-radius: 50%;
 	border: 1.5px solid #B4B4B4;
 	margin: 0 13px;
 	cursor: pointer;
@@ -2588,7 +2646,8 @@ button{
 	height: 12px;
 	background: #001B50;
 	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	        -moz-border-radius: 50%;
+	     border-radius: 50%;
 }
 .development__list{
 	position: relative;
@@ -2641,8 +2700,9 @@ button{
 		position: absolute;
 		top: -70px;
 		left: 26%;
-		-webkit-background-size: contain;
-		        background-size: contain;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 		width: 40px;
 		height: 40px;
 	}
@@ -2685,7 +2745,8 @@ button{
 		top: 4px;
 		background-color: #153A89;
 		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		        -moz-border-radius: 50%;
+		     border-radius: 50%;
 	}
 	.development__list{
 		position: relative;
@@ -2721,8 +2782,9 @@ button{
 		position: absolute;
 		top: -108px;
 		left: 41%;
-		-webkit-background-size: contain;
-		        background-size: contain;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 		width: 68px;
 		height: 68px;
 	}
@@ -2765,7 +2827,8 @@ button{
 		top: 6px;
 		background-color: #153A89;
 		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		        -moz-border-radius: 50%;
+		     border-radius: 50%;
 	}
 
 	.development__list{
@@ -2792,8 +2855,9 @@ button{
 		position: absolute;
 		top: -108px;
 		left: 50%;
-		-webkit-background-size: contain;
-		        background-size: contain;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 		width: 68px;
 		height: 68px;
 	}
@@ -2838,7 +2902,8 @@ button{
 		top: 6px;
 		background-color: #153A89;
 		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		        -moz-border-radius: 50%;
+		     border-radius: 50%;
 	}
 	.development__list{
 		position: relative;
@@ -2913,8 +2978,9 @@ button{
 }
 .product-img{
 	max-width: 100%;
-	-webkit-background-size: contain;
-	        background-size: contain;
+	-moz-background-size: contain;
+	  -o-background-size: contain;
+	     background-size: contain;
 	display: block;
 }
 .product__link{
@@ -2938,7 +3004,8 @@ button{
 	background: transparent;
 	border: 2px solid #FFFFFF;
 	-webkit-border-radius: 4px;
-	        border-radius: 4px;
+	        -moz-border-radius: 4px;
+	     border-radius: 4px;
 }
 .product__link:hover{
 	background: rgba(255, 255, 255, 0.3);
@@ -2981,8 +3048,9 @@ button{
 		padding: 0;
 	}
 	.product-img{
-		-webkit-background-size: contain;
-		        background-size: contain;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 		display: block;
 		max-width: 100%;
 		height: auto;
@@ -3015,8 +3083,9 @@ button{
 		top: -66px;
 	}
 	.product-img{
-		-webkit-background-size: contain;
-		        background-size: contain;
+		-moz-background-size: contain;
+		  -o-background-size: contain;
+		     background-size: contain;
 		display: block;
 	}
 	.product-img{
@@ -3091,6 +3160,12 @@ button{
 .footer__form input::-moz-placeholder{
 	color: #4D69A0;
 }
+.footer__form input::-webkit-input-placeholder{
+	color: #4D69A0;
+}
+.footer__form input:-ms-input-placeholder{
+	color: #4D69A0;
+}
 .footer__form input::placeholder{
 	color: #4D69A0;
 }
@@ -3105,9 +3180,11 @@ button{
 	color: #FFFFFF;
 	background: #102F6A;
 	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
-	        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+	        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+	     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
 	-webkit-border-radius: 5px;
-	        border-radius: 5px;
+	        -moz-border-radius: 5px;
+	     border-radius: 5px;
 	margin-bottom: 10px;
 }
 .footer__form-main-q{
@@ -3128,9 +3205,11 @@ button{
 	color: #FFFFFF;
 	background: #153A89;
 	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
-	        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+	        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+	     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
 	-webkit-border-radius: 10px;
-	        border-radius: 10px;
+	        -moz-border-radius: 10px;
+	     border-radius: 10px;
 	font-size: 18px;
 	line-height: 26px;
 }
@@ -3156,6 +3235,12 @@ button{
 	color: #3A65C0;
 }
 .footer__form-main-data-n::-moz-placeholder{
+	color: #3A65C0;
+}
+.footer__form-main-data-n::-webkit-input-placeholder{
+	color: #3A65C0;
+}
+.footer__form-main-data-n:-ms-input-placeholder{
 	color: #3A65C0;
 }
 .footer__form-main-data-n::placeholder{
@@ -3199,7 +3284,8 @@ button{
     margin-top: -2px;
     margin-right: 5px;
     -webkit-border-radius: 2px;
-            border-radius: 2px;
+            -moz-border-radius: 2px;
+         border-radius: 2px;
     background-color: transparent;
     border: 1px solid #4D69A0;
     
@@ -3227,7 +3313,8 @@ button{
 	        -moz-box-sizing: border-box;
 	     box-sizing: border-box;
 	-webkit-border-radius: 7px;
-	        border-radius: 7px;
+	        -moz-border-radius: 7px;
+	     border-radius: 7px;
 	padding: 10px 11px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
@@ -3407,9 +3494,11 @@ button{
 		color: #FFFFFF;
 		background: #102F6A;
 		-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
-		        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+		        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+		     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
 		-webkit-border-radius: 5px;
-		        border-radius: 5px;
+		        -moz-border-radius: 5px;
+		     border-radius: 5px;
 		font-size: 14px;
 		line-height: 20px;
 		padding: 7px 42px;
@@ -3430,7 +3519,8 @@ button{
 		        -moz-box-sizing: border-box;
 		     box-sizing: border-box;
 		-webkit-border-radius: 4px;
-		        border-radius: 4px;
+		        -moz-border-radius: 4px;
+		     border-radius: 4px;
 		padding: 11px 13px;
 		margin-bottom: 29px;
 
@@ -3442,7 +3532,8 @@ button{
 	    margin-top: 2px;
 	    margin-right: 10px;
 	    -webkit-border-radius: 2px;
-	            border-radius: 2px;
+	            -moz-border-radius: 2px;
+	         border-radius: 2px;
 	    background-color: transparent;
 	    border: 1px solid #4D69A0;
 	    
@@ -3482,9 +3573,11 @@ button{
 	padding: 25px 30px;
 	background: #001B50;
 	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
-	        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+	        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+	     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
 	-webkit-border-radius: 5px;
-	        border-radius: 5px;
+	        -moz-border-radius: 5px;
+	     border-radius: 5px;
 	color: #FFFFFF;
 	text-align: center;
 }
@@ -3550,6 +3643,12 @@ button{
 .popup--form-input::-moz-placeholder{
 	color: #4D69A0;
 }
+.popup--form-input::-webkit-input-placeholder{
+	color: #4D69A0;
+}
+.popup--form-input:-ms-input-placeholder{
+	color: #4D69A0;
+}
 .popup--form-input::placeholder{
 	color: #4D69A0;
 }
@@ -3567,7 +3666,8 @@ button{
     margin-top: 2px;
     margin-right: 11px;
     -webkit-border-radius: 2px;
-            border-radius: 2px;
+            -moz-border-radius: 2px;
+         border-radius: 2px;
     background-color: transparent;
     border: 1px solid #4D69A0;
     width: 11px;
@@ -3604,7 +3704,8 @@ button{
 	        -moz-box-sizing: border-box;
 	     box-sizing: border-box;
 	-webkit-border-radius: 4px;
-	        border-radius: 4px;
+	        -moz-border-radius: 4px;
+	     border-radius: 4px;
 	margin-top: 17px;
 	font: inherit;
 	font-family: 'Istok Web Bold';
@@ -3669,9 +3770,11 @@ button{
 	color: #FFFFFF;
 	background: #001B50;
 	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
-	        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+	        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+	     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
 	-webkit-border-radius: 5px;
-	        border-radius: 5px;
+	        -moz-border-radius: 5px;
+	     border-radius: 5px;
 	margin-bottom: 10px;
 	width: 280px;
 	text-align: center;
@@ -3731,6 +3834,12 @@ button{
 .modal__form-data-n::-moz-placeholder{
 	color: #4D69A0;
 }
+.modal__form-data-n::-webkit-input-placeholder{
+	color: #4D69A0;
+}
+.modal__form-data-n:-ms-input-placeholder{
+	color: #4D69A0;
+}
 .modal__form-data-n::placeholder{
 	color: #4D69A0;
 }
@@ -3769,7 +3878,8 @@ button{
     margin-top: -2px;
     margin-right: 5px;
     -webkit-border-radius: 2px;
-            border-radius: 2px;
+            -moz-border-radius: 2px;
+         border-radius: 2px;
     background-color: transparent;
     border: 1px solid #4D69A0;
     
@@ -3796,7 +3906,8 @@ button{
 	        -moz-box-sizing: border-box;
 	     box-sizing: border-box;
 	-webkit-border-radius: 4px;
-	        border-radius: 4px;
+	        -moz-border-radius: 4px;
+	     border-radius: 4px;
 	padding: 10px 11px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
@@ -3888,7 +3999,8 @@ button{
 		        -moz-box-sizing: border-box;
 		     box-sizing: border-box;
 		-webkit-border-radius: 4px;
-		        border-radius: 4px;
+		        -moz-border-radius: 4px;
+		     border-radius: 4px;
 		padding: 13px 15px;
 		margin-bottom: 29px;
 
@@ -3900,7 +4012,8 @@ button{
 	    margin-top: 2px;
 	    margin-right: 10px;
 	    -webkit-border-radius: 2px;
-	            border-radius: 2px;
+	            -moz-border-radius: 2px;
+	         border-radius: 2px;
 	    background-color: transparent;
 	    border: 1px solid #4D69A0;
 	    
@@ -3917,4 +4030,4 @@ button{
 	    height: 9px;
 	    background: url("img/check.png") no-repeat center;
 	}
-}
+}	
